@@ -53,7 +53,7 @@ class walze(object):
     def enc(self, letter, reverse):
         '''Encode letter'''
         # Step 1: Add rotation to the letter
-        letter = (self.rotor.alphabet.index(letter) + self.rotation) % len(self.rotor.alphabet)
+        letter = (letter + self.rotation) % len(self.rotor.alphabet)
         # Step 2: Loop over permutations
         for pair in self.permutations:
             # If reverse (Coming from the reflector)
@@ -63,12 +63,12 @@ class walze(object):
                     # Put temporary letter variable to what that letter corresponds to
                     letter = pair[0]
                     # Step 3: Return the letter - the current rotation; Thus shifting down the alphabet
-                    return self.rotor.alphabet[(letter + (-self.rotation)) % len(self.rotor.alphabet)]
+                    return (letter + (-self.rotation)) % len(self.rotor.alphabet)
             else:
                 # Look at first row
                 if pair[0] == letter:
                     # Put temporary letter variable to what that letter corresponds to
                     letter = pair[1]
                     # Step 3: Return the letter - the current rotation; Thus shifting down the alphabet
-                    return self.rotor.alphabet[(letter + (-self.rotation)) % len(self.rotor.alphabet)]
+                    return (letter + (-self.rotation)) % len(self.rotor.alphabet)
     

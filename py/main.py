@@ -11,7 +11,7 @@ def main(args=sys.argv[1:]):
     walze(rotors.historical_rotors.ETW, "A", "A"),
     walze(rotors.historical_rotors.UKW_B, "A", "A")]
     w = walzensatz(walzen)
-    print(w.enc_string("AAAA"))
+    print(w.enc_string("AAAAA"))
 
 
 # Call the main function at the end of the file

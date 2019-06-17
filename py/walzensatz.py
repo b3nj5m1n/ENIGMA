@@ -78,8 +78,10 @@ class walzensatz(object):
         '''Encode a letter'''
         # Rotate at begining
         self.rotate()
-        # Initalize working variable, this will change with every rotor the letter goes through
-        x = self.ETW.enc(letter, False)
+        # Convert letter to a number
+        x = self.ETW.rotor.alphabet.index(letter)
+        # Pass through ETW
+        x = self.ETW.enc(x, False)
         # Loop over normal walzen (Theese are always before any possible GRW)
         for walze in self.walzen:
             # Encode the current letter x in the current rotor
@@ -98,8 +100,9 @@ class walzensatz(object):
         for walze in reversed(self.walzen):
             # Encode current letter x in the current rotor
             x = walze.enc(x, True)
-        # Put the letter through the ETW and return it
-        return self.ETW.enc(x, True)
+        # Put the letter through the ETW and return the corresponding letter
+        alphabet = self.ETW.rotor.alphabet
+        return alphabet[self.ETW.enc(x, True)]
     def enc_string(self, string):
         '''Encode a string, return the string'''
         # Result string, where encoded chars will be added to

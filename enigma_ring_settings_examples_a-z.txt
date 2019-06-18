@@ -1,0 +1,1363 @@
+################################################
+
+
+Ringstellung: 0
+Dot position: 20
+--------------------------------------
+Ringstellung: A
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+EKMFLGDQVZNTOWYHXUSPAIBRCJ
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 1
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Rotation 01; Wiring: KFLNGMHERWAOUPXZIYVTQBJCSD
+--------------------------------------
+Ringstellung: B
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+KFLNGMHERWAOUPXZIYVTQBJCSD
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 2
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Rotation 01; Wiring: LGMOHNIFSXBPVQYAJZWURCKDTE
+Rotation 02; Wiring: ELGMOHNIFSXBPVQYAJZWURCKDT
+--------------------------------------
+Ringstellung: C
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+ELGMOHNIFSXBPVQYAJZWURCKDT
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 3
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Rotation 01; Wiring: MHNPIOJGTYCQWRZBKAXVSDLEUF
+Rotation 02; Wiring: FMHNPIOJGTYCQWRZBKAXVSDLEU
+Rotation 03; Wiring: UFMHNPIOJGTYCQWRZBKAXVSDLE
+--------------------------------------
+Ringstellung: D
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+UFMHNPIOJGTYCQWRZBKAXVSDLE
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 4
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Rotation 01; Wiring: NIOQJPKHUZDRXSACLBYWTEMFVG
+Rotation 02; Wiring: GNIOQJPKHUZDRXSACLBYWTEMFV
+Rotation 03; Wiring: VGNIOQJPKHUZDRXSACLBYWTEMF
+Rotation 04; Wiring: FVGNIOQJPKHUZDRXSACLBYWTEM
+--------------------------------------
+Ringstellung: E
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+FVGNIOQJPKHUZDRXSACLBYWTEM
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 5
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Rotation 01; Wiring: OJPRKQLIVAESYTBDMCZXUFNGWH
+Rotation 02; Wiring: HOJPRKQLIVAESYTBDMCZXUFNGW
+Rotation 03; Wiring: WHOJPRKQLIVAESYTBDMCZXUFNG
+Rotation 04; Wiring: GWHOJPRKQLIVAESYTBDMCZXUFN
+Rotation 05; Wiring: NGWHOJPRKQLIVAESYTBDMCZXUF
+--------------------------------------
+Ringstellung: F
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+NGWHOJPRKQLIVAESYTBDMCZXUF
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 6
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Rotation 01; Wiring: PKQSLRMJWBFTZUCENDAYVGOHXI
+Rotation 02; Wiring: IPKQSLRMJWBFTZUCENDAYVGOHX
+Rotation 03; Wiring: XIPKQSLRMJWBFTZUCENDAYVGOH
+Rotation 04; Wiring: HXIPKQSLRMJWBFTZUCENDAYVGO
+Rotation 05; Wiring: OHXIPKQSLRMJWBFTZUCENDAYVG
+Rotation 06; Wiring: GOHXIPKQSLRMJWBFTZUCENDAYV
+--------------------------------------
+Ringstellung: G
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+GOHXIPKQSLRMJWBFTZUCENDAYV
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 7
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Rotation 01; Wiring: QLRTMSNKXCGUAVDFOEBZWHPIYJ
+Rotation 02; Wiring: JQLRTMSNKXCGUAVDFOEBZWHPIY
+Rotation 03; Wiring: YJQLRTMSNKXCGUAVDFOEBZWHPI
+Rotation 04; Wiring: IYJQLRTMSNKXCGUAVDFOEBZWHP
+Rotation 05; Wiring: PIYJQLRTMSNKXCGUAVDFOEBZWH
+Rotation 06; Wiring: HPIYJQLRTMSNKXCGUAVDFOEBZW
+Rotation 07; Wiring: WHPIYJQLRTMSNKXCGUAVDFOEBZ
+--------------------------------------
+Ringstellung: H
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+WHPIYJQLRTMSNKXCGUAVDFOEBZ
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 8
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Rotation 01; Wiring: RMSUNTOLYDHVBWEGPFCAXIQJZK
+Rotation 02; Wiring: KRMSUNTOLYDHVBWEGPFCAXIQJZ
+Rotation 03; Wiring: ZKRMSUNTOLYDHVBWEGPFCAXIQJ
+Rotation 04; Wiring: JZKRMSUNTOLYDHVBWEGPFCAXIQ
+Rotation 05; Wiring: QJZKRMSUNTOLYDHVBWEGPFCAXI
+Rotation 06; Wiring: IQJZKRMSUNTOLYDHVBWEGPFCAX
+Rotation 07; Wiring: XIQJZKRMSUNTOLYDHVBWEGPFCA
+Rotation 08; Wiring: AXIQJZKRMSUNTOLYDHVBWEGPFC
+--------------------------------------
+Ringstellung: I
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+AXIQJZKRMSUNTOLYDHVBWEGPFC
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 9
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Rotation 01; Wiring: SNTVOUPMZEIWCXFHQGDBYJRKAL
+Rotation 02; Wiring: LSNTVOUPMZEIWCXFHQGDBYJRKA
+Rotation 03; Wiring: ALSNTVOUPMZEIWCXFHQGDBYJRK
+Rotation 04; Wiring: KALSNTVOUPMZEIWCXFHQGDBYJR
+Rotation 05; Wiring: RKALSNTVOUPMZEIWCXFHQGDBYJ
+Rotation 06; Wiring: JRKALSNTVOUPMZEIWCXFHQGDBY
+Rotation 07; Wiring: YJRKALSNTVOUPMZEIWCXFHQGDB
+Rotation 08; Wiring: BYJRKALSNTVOUPMZEIWCXFHQGD
+Rotation 09; Wiring: DBYJRKALSNTVOUPMZEIWCXFHQG
+--------------------------------------
+Ringstellung: J
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+DBYJRKALSNTVOUPMZEIWCXFHQG
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 10
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Rotation 01; Wiring: TOUWPVQNAFJXDYGIRHECZKSLBM
+Rotation 02; Wiring: MTOUWPVQNAFJXDYGIRHECZKSLB
+Rotation 03; Wiring: BMTOUWPVQNAFJXDYGIRHECZKSL
+Rotation 04; Wiring: LBMTOUWPVQNAFJXDYGIRHECZKS
+Rotation 05; Wiring: SLBMTOUWPVQNAFJXDYGIRHECZK
+Rotation 06; Wiring: KSLBMTOUWPVQNAFJXDYGIRHECZ
+Rotation 07; Wiring: ZKSLBMTOUWPVQNAFJXDYGIRHEC
+Rotation 08; Wiring: CZKSLBMTOUWPVQNAFJXDYGIRHE
+Rotation 09; Wiring: ECZKSLBMTOUWPVQNAFJXDYGIRH
+Rotation 10; Wiring: HECZKSLBMTOUWPVQNAFJXDYGIR
+--------------------------------------
+Ringstellung: K
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+HECZKSLBMTOUWPVQNAFJXDYGIR
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 11
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Rotation 01; Wiring: UPVXQWROBGKYEZHJSIFDALTMCN
+Rotation 02; Wiring: NUPVXQWROBGKYEZHJSIFDALTMC
+Rotation 03; Wiring: CNUPVXQWROBGKYEZHJSIFDALTM
+Rotation 04; Wiring: MCNUPVXQWROBGKYEZHJSIFDALT
+Rotation 05; Wiring: TMCNUPVXQWROBGKYEZHJSIFDAL
+Rotation 06; Wiring: LTMCNUPVXQWROBGKYEZHJSIFDA
+Rotation 07; Wiring: ALTMCNUPVXQWROBGKYEZHJSIFD
+Rotation 08; Wiring: DALTMCNUPVXQWROBGKYEZHJSIF
+Rotation 09; Wiring: FDALTMCNUPVXQWROBGKYEZHJSI
+Rotation 10; Wiring: IFDALTMCNUPVXQWROBGKYEZHJS
+Rotation 11; Wiring: SIFDALTMCNUPVXQWROBGKYEZHJ
+--------------------------------------
+Ringstellung: L
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+SIFDALTMCNUPVXQWROBGKYEZHJ
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 12
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Rotation 01; Wiring: VQWYRXSPCHLZFAIKTJGEBMUNDO
+Rotation 02; Wiring: OVQWYRXSPCHLZFAIKTJGEBMUND
+Rotation 03; Wiring: DOVQWYRXSPCHLZFAIKTJGEBMUN
+Rotation 04; Wiring: NDOVQWYRXSPCHLZFAIKTJGEBMU
+Rotation 05; Wiring: UNDOVQWYRXSPCHLZFAIKTJGEBM
+Rotation 06; Wiring: MUNDOVQWYRXSPCHLZFAIKTJGEB
+Rotation 07; Wiring: BMUNDOVQWYRXSPCHLZFAIKTJGE
+Rotation 08; Wiring: EBMUNDOVQWYRXSPCHLZFAIKTJG
+Rotation 09; Wiring: GEBMUNDOVQWYRXSPCHLZFAIKTJ
+Rotation 10; Wiring: JGEBMUNDOVQWYRXSPCHLZFAIKT
+Rotation 11; Wiring: TJGEBMUNDOVQWYRXSPCHLZFAIK
+Rotation 12; Wiring: KTJGEBMUNDOVQWYRXSPCHLZFAI
+--------------------------------------
+Ringstellung: M
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+KTJGEBMUNDOVQWYRXSPCHLZFAI
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 13
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Rotation 01; Wiring: WRXZSYTQDIMAGBJLUKHFCNVOEP
+Rotation 02; Wiring: PWRXZSYTQDIMAGBJLUKHFCNVOE
+Rotation 03; Wiring: EPWRXZSYTQDIMAGBJLUKHFCNVO
+Rotation 04; Wiring: OEPWRXZSYTQDIMAGBJLUKHFCNV
+Rotation 05; Wiring: VOEPWRXZSYTQDIMAGBJLUKHFCN
+Rotation 06; Wiring: NVOEPWRXZSYTQDIMAGBJLUKHFC
+Rotation 07; Wiring: CNVOEPWRXZSYTQDIMAGBJLUKHF
+Rotation 08; Wiring: FCNVOEPWRXZSYTQDIMAGBJLUKH
+Rotation 09; Wiring: HFCNVOEPWRXZSYTQDIMAGBJLUK
+Rotation 10; Wiring: KHFCNVOEPWRXZSYTQDIMAGBJLU
+Rotation 11; Wiring: UKHFCNVOEPWRXZSYTQDIMAGBJL
+Rotation 12; Wiring: LUKHFCNVOEPWRXZSYTQDIMAGBJ
+Rotation 13; Wiring: JLUKHFCNVOEPWRXZSYTQDIMAGB
+--------------------------------------
+Ringstellung: N
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+JLUKHFCNVOEPWRXZSYTQDIMAGB
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 14
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Rotation 01; Wiring: XSYATZUREJNBHCKMVLIGDOWPFQ
+Rotation 02; Wiring: QXSYATZUREJNBHCKMVLIGDOWPF
+Rotation 03; Wiring: FQXSYATZUREJNBHCKMVLIGDOWP
+Rotation 04; Wiring: PFQXSYATZUREJNBHCKMVLIGDOW
+Rotation 05; Wiring: WPFQXSYATZUREJNBHCKMVLIGDO
+Rotation 06; Wiring: OWPFQXSYATZUREJNBHCKMVLIGD
+Rotation 07; Wiring: DOWPFQXSYATZUREJNBHCKMVLIG
+Rotation 08; Wiring: GDOWPFQXSYATZUREJNBHCKMVLI
+Rotation 09; Wiring: IGDOWPFQXSYATZUREJNBHCKMVL
+Rotation 10; Wiring: LIGDOWPFQXSYATZUREJNBHCKMV
+Rotation 11; Wiring: VLIGDOWPFQXSYATZUREJNBHCKM
+Rotation 12; Wiring: MVLIGDOWPFQXSYATZUREJNBHCK
+Rotation 13; Wiring: KMVLIGDOWPFQXSYATZUREJNBHC
+Rotation 14; Wiring: CKMVLIGDOWPFQXSYATZUREJNBH
+--------------------------------------
+Ringstellung: O
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+CKMVLIGDOWPFQXSYATZUREJNBH
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 15
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Wiring shiftet up the alphabet: TZBUAVSFKOCIDLNWMJHEPXQGRY
+New dot position: 9
+Rotation 01; Wiring: YTZBUAVSFKOCIDLNWMJHEPXQGR
+Rotation 02; Wiring: RYTZBUAVSFKOCIDLNWMJHEPXQG
+Rotation 03; Wiring: GRYTZBUAVSFKOCIDLNWMJHEPXQ
+Rotation 04; Wiring: QGRYTZBUAVSFKOCIDLNWMJHEPX
+Rotation 05; Wiring: XQGRYTZBUAVSFKOCIDLNWMJHEP
+Rotation 06; Wiring: PXQGRYTZBUAVSFKOCIDLNWMJHE
+Rotation 07; Wiring: EPXQGRYTZBUAVSFKOCIDLNWMJH
+Rotation 08; Wiring: HEPXQGRYTZBUAVSFKOCIDLNWMJ
+Rotation 09; Wiring: JHEPXQGRYTZBUAVSFKOCIDLNWM
+Rotation 10; Wiring: MJHEPXQGRYTZBUAVSFKOCIDLNW
+Rotation 11; Wiring: WMJHEPXQGRYTZBUAVSFKOCIDLN
+Rotation 12; Wiring: NWMJHEPXQGRYTZBUAVSFKOCIDL
+Rotation 13; Wiring: LNWMJHEPXQGRYTZBUAVSFKOCID
+Rotation 14; Wiring: DLNWMJHEPXQGRYTZBUAVSFKOCI
+Rotation 15; Wiring: IDLNWMJHEPXQGRYTZBUAVSFKOC
+--------------------------------------
+Ringstellung: P
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+IDLNWMJHEPXQGRYTZBUAVSFKOC
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 16
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Wiring shiftet up the alphabet: TZBUAVSFKOCIDLNWMJHEPXQGRY
+New dot position: 9
+Wiring shiftet up the alphabet: UACVBWTGLPDJEMOXNKIFQYRHSZ
+New dot position: 10
+Rotation 01; Wiring: ZUACVBWTGLPDJEMOXNKIFQYRHS
+Rotation 02; Wiring: SZUACVBWTGLPDJEMOXNKIFQYRH
+Rotation 03; Wiring: HSZUACVBWTGLPDJEMOXNKIFQYR
+Rotation 04; Wiring: RHSZUACVBWTGLPDJEMOXNKIFQY
+Rotation 05; Wiring: YRHSZUACVBWTGLPDJEMOXNKIFQ
+Rotation 06; Wiring: QYRHSZUACVBWTGLPDJEMOXNKIF
+Rotation 07; Wiring: FQYRHSZUACVBWTGLPDJEMOXNKI
+Rotation 08; Wiring: IFQYRHSZUACVBWTGLPDJEMOXNK
+Rotation 09; Wiring: KIFQYRHSZUACVBWTGLPDJEMOXN
+Rotation 10; Wiring: NKIFQYRHSZUACVBWTGLPDJEMOX
+Rotation 11; Wiring: XNKIFQYRHSZUACVBWTGLPDJEMO
+Rotation 12; Wiring: OXNKIFQYRHSZUACVBWTGLPDJEM
+Rotation 13; Wiring: MOXNKIFQYRHSZUACVBWTGLPDJE
+Rotation 14; Wiring: EMOXNKIFQYRHSZUACVBWTGLPDJ
+Rotation 15; Wiring: JEMOXNKIFQYRHSZUACVBWTGLPD
+Rotation 16; Wiring: DJEMOXNKIFQYRHSZUACVBWTGLP
+--------------------------------------
+Ringstellung: Q
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+DJEMOXNKIFQYRHSZUACVBWTGLP
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 17
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Wiring shiftet up the alphabet: TZBUAVSFKOCIDLNWMJHEPXQGRY
+New dot position: 9
+Wiring shiftet up the alphabet: UACVBWTGLPDJEMOXNKIFQYRHSZ
+New dot position: 10
+Wiring shiftet up the alphabet: VBDWCXUHMQEKFNPYOLJGRZSITA
+New dot position: 11
+Rotation 01; Wiring: AVBDWCXUHMQEKFNPYOLJGRZSIT
+Rotation 02; Wiring: TAVBDWCXUHMQEKFNPYOLJGRZSI
+Rotation 03; Wiring: ITAVBDWCXUHMQEKFNPYOLJGRZS
+Rotation 04; Wiring: SITAVBDWCXUHMQEKFNPYOLJGRZ
+Rotation 05; Wiring: ZSITAVBDWCXUHMQEKFNPYOLJGR
+Rotation 06; Wiring: RZSITAVBDWCXUHMQEKFNPYOLJG
+Rotation 07; Wiring: GRZSITAVBDWCXUHMQEKFNPYOLJ
+Rotation 08; Wiring: JGRZSITAVBDWCXUHMQEKFNPYOL
+Rotation 09; Wiring: LJGRZSITAVBDWCXUHMQEKFNPYO
+Rotation 10; Wiring: OLJGRZSITAVBDWCXUHMQEKFNPY
+Rotation 11; Wiring: YOLJGRZSITAVBDWCXUHMQEKFNP
+Rotation 12; Wiring: PYOLJGRZSITAVBDWCXUHMQEKFN
+Rotation 13; Wiring: NPYOLJGRZSITAVBDWCXUHMQEKF
+Rotation 14; Wiring: FNPYOLJGRZSITAVBDWCXUHMQEK
+Rotation 15; Wiring: KFNPYOLJGRZSITAVBDWCXUHMQE
+Rotation 16; Wiring: EKFNPYOLJGRZSITAVBDWCXUHMQ
+Rotation 17; Wiring: QEKFNPYOLJGRZSITAVBDWCXUHM
+--------------------------------------
+Ringstellung: R
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+QEKFNPYOLJGRZSITAVBDWCXUHM
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 18
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Wiring shiftet up the alphabet: TZBUAVSFKOCIDLNWMJHEPXQGRY
+New dot position: 9
+Wiring shiftet up the alphabet: UACVBWTGLPDJEMOXNKIFQYRHSZ
+New dot position: 10
+Wiring shiftet up the alphabet: VBDWCXUHMQEKFNPYOLJGRZSITA
+New dot position: 11
+Wiring shiftet up the alphabet: WCEXDYVINRFLGOQZPMKHSATJUB
+New dot position: 12
+Rotation 01; Wiring: BWCEXDYVINRFLGOQZPMKHSATJU
+Rotation 02; Wiring: UBWCEXDYVINRFLGOQZPMKHSATJ
+Rotation 03; Wiring: JUBWCEXDYVINRFLGOQZPMKHSAT
+Rotation 04; Wiring: TJUBWCEXDYVINRFLGOQZPMKHSA
+Rotation 05; Wiring: ATJUBWCEXDYVINRFLGOQZPMKHS
+Rotation 06; Wiring: SATJUBWCEXDYVINRFLGOQZPMKH
+Rotation 07; Wiring: HSATJUBWCEXDYVINRFLGOQZPMK
+Rotation 08; Wiring: KHSATJUBWCEXDYVINRFLGOQZPM
+Rotation 09; Wiring: MKHSATJUBWCEXDYVINRFLGOQZP
+Rotation 10; Wiring: PMKHSATJUBWCEXDYVINRFLGOQZ
+Rotation 11; Wiring: ZPMKHSATJUBWCEXDYVINRFLGOQ
+Rotation 12; Wiring: QZPMKHSATJUBWCEXDYVINRFLGO
+Rotation 13; Wiring: OQZPMKHSATJUBWCEXDYVINRFLG
+Rotation 14; Wiring: GOQZPMKHSATJUBWCEXDYVINRFL
+Rotation 15; Wiring: LGOQZPMKHSATJUBWCEXDYVINRF
+Rotation 16; Wiring: FLGOQZPMKHSATJUBWCEXDYVINR
+Rotation 17; Wiring: RFLGOQZPMKHSATJUBWCEXDYVIN
+Rotation 18; Wiring: NRFLGOQZPMKHSATJUBWCEXDYVI
+--------------------------------------
+Ringstellung: S
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+NRFLGOQZPMKHSATJUBWCEXDYVI
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 19
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Wiring shiftet up the alphabet: TZBUAVSFKOCIDLNWMJHEPXQGRY
+New dot position: 9
+Wiring shiftet up the alphabet: UACVBWTGLPDJEMOXNKIFQYRHSZ
+New dot position: 10
+Wiring shiftet up the alphabet: VBDWCXUHMQEKFNPYOLJGRZSITA
+New dot position: 11
+Wiring shiftet up the alphabet: WCEXDYVINRFLGOQZPMKHSATJUB
+New dot position: 12
+Wiring shiftet up the alphabet: XDFYEZWJOSGMHPRAQNLITBUKVC
+New dot position: 13
+Rotation 01; Wiring: CXDFYEZWJOSGMHPRAQNLITBUKV
+Rotation 02; Wiring: VCXDFYEZWJOSGMHPRAQNLITBUK
+Rotation 03; Wiring: KVCXDFYEZWJOSGMHPRAQNLITBU
+Rotation 04; Wiring: UKVCXDFYEZWJOSGMHPRAQNLITB
+Rotation 05; Wiring: BUKVCXDFYEZWJOSGMHPRAQNLIT
+Rotation 06; Wiring: TBUKVCXDFYEZWJOSGMHPRAQNLI
+Rotation 07; Wiring: ITBUKVCXDFYEZWJOSGMHPRAQNL
+Rotation 08; Wiring: LITBUKVCXDFYEZWJOSGMHPRAQN
+Rotation 09; Wiring: NLITBUKVCXDFYEZWJOSGMHPRAQ
+Rotation 10; Wiring: QNLITBUKVCXDFYEZWJOSGMHPRA
+Rotation 11; Wiring: AQNLITBUKVCXDFYEZWJOSGMHPR
+Rotation 12; Wiring: RAQNLITBUKVCXDFYEZWJOSGMHP
+Rotation 13; Wiring: PRAQNLITBUKVCXDFYEZWJOSGMH
+Rotation 14; Wiring: HPRAQNLITBUKVCXDFYEZWJOSGM
+Rotation 15; Wiring: MHPRAQNLITBUKVCXDFYEZWJOSG
+Rotation 16; Wiring: GMHPRAQNLITBUKVCXDFYEZWJOS
+Rotation 17; Wiring: SGMHPRAQNLITBUKVCXDFYEZWJO
+Rotation 18; Wiring: OSGMHPRAQNLITBUKVCXDFYEZWJ
+Rotation 19; Wiring: JOSGMHPRAQNLITBUKVCXDFYEZW
+--------------------------------------
+Ringstellung: T
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+JOSGMHPRAQNLITBUKVCXDFYEZW
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 20
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Wiring shiftet up the alphabet: TZBUAVSFKOCIDLNWMJHEPXQGRY
+New dot position: 9
+Wiring shiftet up the alphabet: UACVBWTGLPDJEMOXNKIFQYRHSZ
+New dot position: 10
+Wiring shiftet up the alphabet: VBDWCXUHMQEKFNPYOLJGRZSITA
+New dot position: 11
+Wiring shiftet up the alphabet: WCEXDYVINRFLGOQZPMKHSATJUB
+New dot position: 12
+Wiring shiftet up the alphabet: XDFYEZWJOSGMHPRAQNLITBUKVC
+New dot position: 13
+Wiring shiftet up the alphabet: YEGZFAXKPTHNIQSBROMJUCVLWD
+New dot position: 14
+Rotation 01; Wiring: DYEGZFAXKPTHNIQSBROMJUCVLW
+Rotation 02; Wiring: WDYEGZFAXKPTHNIQSBROMJUCVL
+Rotation 03; Wiring: LWDYEGZFAXKPTHNIQSBROMJUCV
+Rotation 04; Wiring: VLWDYEGZFAXKPTHNIQSBROMJUC
+Rotation 05; Wiring: CVLWDYEGZFAXKPTHNIQSBROMJU
+Rotation 06; Wiring: UCVLWDYEGZFAXKPTHNIQSBROMJ
+Rotation 07; Wiring: JUCVLWDYEGZFAXKPTHNIQSBROM
+Rotation 08; Wiring: MJUCVLWDYEGZFAXKPTHNIQSBRO
+Rotation 09; Wiring: OMJUCVLWDYEGZFAXKPTHNIQSBR
+Rotation 10; Wiring: ROMJUCVLWDYEGZFAXKPTHNIQSB
+Rotation 11; Wiring: BROMJUCVLWDYEGZFAXKPTHNIQS
+Rotation 12; Wiring: SBROMJUCVLWDYEGZFAXKPTHNIQ
+Rotation 13; Wiring: QSBROMJUCVLWDYEGZFAXKPTHNI
+Rotation 14; Wiring: IQSBROMJUCVLWDYEGZFAXKPTHN
+Rotation 15; Wiring: NIQSBROMJUCVLWDYEGZFAXKPTH
+Rotation 16; Wiring: HNIQSBROMJUCVLWDYEGZFAXKPT
+Rotation 17; Wiring: THNIQSBROMJUCVLWDYEGZFAXKP
+Rotation 18; Wiring: PTHNIQSBROMJUCVLWDYEGZFAXK
+Rotation 19; Wiring: KPTHNIQSBROMJUCVLWDYEGZFAX
+Rotation 20; Wiring: XKPTHNIQSBROMJUCVLWDYEGZFA
+--------------------------------------
+Ringstellung: U
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+XKPTHNIQSBROMJUCVLWDYEGZFA
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 21
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Wiring shiftet up the alphabet: TZBUAVSFKOCIDLNWMJHEPXQGRY
+New dot position: 9
+Wiring shiftet up the alphabet: UACVBWTGLPDJEMOXNKIFQYRHSZ
+New dot position: 10
+Wiring shiftet up the alphabet: VBDWCXUHMQEKFNPYOLJGRZSITA
+New dot position: 11
+Wiring shiftet up the alphabet: WCEXDYVINRFLGOQZPMKHSATJUB
+New dot position: 12
+Wiring shiftet up the alphabet: XDFYEZWJOSGMHPRAQNLITBUKVC
+New dot position: 13
+Wiring shiftet up the alphabet: YEGZFAXKPTHNIQSBROMJUCVLWD
+New dot position: 14
+Wiring shiftet up the alphabet: ZFHAGBYLQUIOJRTCSPNKVDWMXE
+New dot position: 15
+Rotation 01; Wiring: EZFHAGBYLQUIOJRTCSPNKVDWMX
+Rotation 02; Wiring: XEZFHAGBYLQUIOJRTCSPNKVDWM
+Rotation 03; Wiring: MXEZFHAGBYLQUIOJRTCSPNKVDW
+Rotation 04; Wiring: WMXEZFHAGBYLQUIOJRTCSPNKVD
+Rotation 05; Wiring: DWMXEZFHAGBYLQUIOJRTCSPNKV
+Rotation 06; Wiring: VDWMXEZFHAGBYLQUIOJRTCSPNK
+Rotation 07; Wiring: KVDWMXEZFHAGBYLQUIOJRTCSPN
+Rotation 08; Wiring: NKVDWMXEZFHAGBYLQUIOJRTCSP
+Rotation 09; Wiring: PNKVDWMXEZFHAGBYLQUIOJRTCS
+Rotation 10; Wiring: SPNKVDWMXEZFHAGBYLQUIOJRTC
+Rotation 11; Wiring: CSPNKVDWMXEZFHAGBYLQUIOJRT
+Rotation 12; Wiring: TCSPNKVDWMXEZFHAGBYLQUIOJR
+Rotation 13; Wiring: RTCSPNKVDWMXEZFHAGBYLQUIOJ
+Rotation 14; Wiring: JRTCSPNKVDWMXEZFHAGBYLQUIO
+Rotation 15; Wiring: OJRTCSPNKVDWMXEZFHAGBYLQUI
+Rotation 16; Wiring: IOJRTCSPNKVDWMXEZFHAGBYLQU
+Rotation 17; Wiring: UIOJRTCSPNKVDWMXEZFHAGBYLQ
+Rotation 18; Wiring: QUIOJRTCSPNKVDWMXEZFHAGBYL
+Rotation 19; Wiring: LQUIOJRTCSPNKVDWMXEZFHAGBY
+Rotation 20; Wiring: YLQUIOJRTCSPNKVDWMXEZFHAGB
+Rotation 21; Wiring: BYLQUIOJRTCSPNKVDWMXEZFHAG
+--------------------------------------
+Ringstellung: V
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+BYLQUIOJRTCSPNKVDWMXEZFHAG
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 22
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Wiring shiftet up the alphabet: TZBUAVSFKOCIDLNWMJHEPXQGRY
+New dot position: 9
+Wiring shiftet up the alphabet: UACVBWTGLPDJEMOXNKIFQYRHSZ
+New dot position: 10
+Wiring shiftet up the alphabet: VBDWCXUHMQEKFNPYOLJGRZSITA
+New dot position: 11
+Wiring shiftet up the alphabet: WCEXDYVINRFLGOQZPMKHSATJUB
+New dot position: 12
+Wiring shiftet up the alphabet: XDFYEZWJOSGMHPRAQNLITBUKVC
+New dot position: 13
+Wiring shiftet up the alphabet: YEGZFAXKPTHNIQSBROMJUCVLWD
+New dot position: 14
+Wiring shiftet up the alphabet: ZFHAGBYLQUIOJRTCSPNKVDWMXE
+New dot position: 15
+Wiring shiftet up the alphabet: AGIBHCZMRVJPKSUDTQOLWEXNYF
+New dot position: 16
+Rotation 01; Wiring: FAGIBHCZMRVJPKSUDTQOLWEXNY
+Rotation 02; Wiring: YFAGIBHCZMRVJPKSUDTQOLWEXN
+Rotation 03; Wiring: NYFAGIBHCZMRVJPKSUDTQOLWEX
+Rotation 04; Wiring: XNYFAGIBHCZMRVJPKSUDTQOLWE
+Rotation 05; Wiring: EXNYFAGIBHCZMRVJPKSUDTQOLW
+Rotation 06; Wiring: WEXNYFAGIBHCZMRVJPKSUDTQOL
+Rotation 07; Wiring: LWEXNYFAGIBHCZMRVJPKSUDTQO
+Rotation 08; Wiring: OLWEXNYFAGIBHCZMRVJPKSUDTQ
+Rotation 09; Wiring: QOLWEXNYFAGIBHCZMRVJPKSUDT
+Rotation 10; Wiring: TQOLWEXNYFAGIBHCZMRVJPKSUD
+Rotation 11; Wiring: DTQOLWEXNYFAGIBHCZMRVJPKSU
+Rotation 12; Wiring: UDTQOLWEXNYFAGIBHCZMRVJPKS
+Rotation 13; Wiring: SUDTQOLWEXNYFAGIBHCZMRVJPK
+Rotation 14; Wiring: KSUDTQOLWEXNYFAGIBHCZMRVJP
+Rotation 15; Wiring: PKSUDTQOLWEXNYFAGIBHCZMRVJ
+Rotation 16; Wiring: JPKSUDTQOLWEXNYFAGIBHCZMRV
+Rotation 17; Wiring: VJPKSUDTQOLWEXNYFAGIBHCZMR
+Rotation 18; Wiring: RVJPKSUDTQOLWEXNYFAGIBHCZM
+Rotation 19; Wiring: MRVJPKSUDTQOLWEXNYFAGIBHCZ
+Rotation 20; Wiring: ZMRVJPKSUDTQOLWEXNYFAGIBHC
+Rotation 21; Wiring: CZMRVJPKSUDTQOLWEXNYFAGIBH
+Rotation 22; Wiring: HCZMRVJPKSUDTQOLWEXNYFAGIB
+--------------------------------------
+Ringstellung: W
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+HCZMRVJPKSUDTQOLWEXNYFAGIB
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 23
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Wiring shiftet up the alphabet: TZBUAVSFKOCIDLNWMJHEPXQGRY
+New dot position: 9
+Wiring shiftet up the alphabet: UACVBWTGLPDJEMOXNKIFQYRHSZ
+New dot position: 10
+Wiring shiftet up the alphabet: VBDWCXUHMQEKFNPYOLJGRZSITA
+New dot position: 11
+Wiring shiftet up the alphabet: WCEXDYVINRFLGOQZPMKHSATJUB
+New dot position: 12
+Wiring shiftet up the alphabet: XDFYEZWJOSGMHPRAQNLITBUKVC
+New dot position: 13
+Wiring shiftet up the alphabet: YEGZFAXKPTHNIQSBROMJUCVLWD
+New dot position: 14
+Wiring shiftet up the alphabet: ZFHAGBYLQUIOJRTCSPNKVDWMXE
+New dot position: 15
+Wiring shiftet up the alphabet: AGIBHCZMRVJPKSUDTQOLWEXNYF
+New dot position: 16
+Wiring shiftet up the alphabet: BHJCIDANSWKQLTVEURPMXFYOZG
+New dot position: 17
+Rotation 01; Wiring: GBHJCIDANSWKQLTVEURPMXFYOZ
+Rotation 02; Wiring: ZGBHJCIDANSWKQLTVEURPMXFYO
+Rotation 03; Wiring: OZGBHJCIDANSWKQLTVEURPMXFY
+Rotation 04; Wiring: YOZGBHJCIDANSWKQLTVEURPMXF
+Rotation 05; Wiring: FYOZGBHJCIDANSWKQLTVEURPMX
+Rotation 06; Wiring: XFYOZGBHJCIDANSWKQLTVEURPM
+Rotation 07; Wiring: MXFYOZGBHJCIDANSWKQLTVEURP
+Rotation 08; Wiring: PMXFYOZGBHJCIDANSWKQLTVEUR
+Rotation 09; Wiring: RPMXFYOZGBHJCIDANSWKQLTVEU
+Rotation 10; Wiring: URPMXFYOZGBHJCIDANSWKQLTVE
+Rotation 11; Wiring: EURPMXFYOZGBHJCIDANSWKQLTV
+Rotation 12; Wiring: VEURPMXFYOZGBHJCIDANSWKQLT
+Rotation 13; Wiring: TVEURPMXFYOZGBHJCIDANSWKQL
+Rotation 14; Wiring: LTVEURPMXFYOZGBHJCIDANSWKQ
+Rotation 15; Wiring: QLTVEURPMXFYOZGBHJCIDANSWK
+Rotation 16; Wiring: KQLTVEURPMXFYOZGBHJCIDANSW
+Rotation 17; Wiring: WKQLTVEURPMXFYOZGBHJCIDANS
+Rotation 18; Wiring: SWKQLTVEURPMXFYOZGBHJCIDAN
+Rotation 19; Wiring: NSWKQLTVEURPMXFYOZGBHJCIDA
+Rotation 20; Wiring: ANSWKQLTVEURPMXFYOZGBHJCID
+Rotation 21; Wiring: DANSWKQLTVEURPMXFYOZGBHJCI
+Rotation 22; Wiring: IDANSWKQLTVEURPMXFYOZGBHJC
+Rotation 23; Wiring: CIDANSWKQLTVEURPMXFYOZGBHJ
+--------------------------------------
+Ringstellung: X
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+CIDANSWKQLTVEURPMXFYOZGBHJ
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 24
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Wiring shiftet up the alphabet: TZBUAVSFKOCIDLNWMJHEPXQGRY
+New dot position: 9
+Wiring shiftet up the alphabet: UACVBWTGLPDJEMOXNKIFQYRHSZ
+New dot position: 10
+Wiring shiftet up the alphabet: VBDWCXUHMQEKFNPYOLJGRZSITA
+New dot position: 11
+Wiring shiftet up the alphabet: WCEXDYVINRFLGOQZPMKHSATJUB
+New dot position: 12
+Wiring shiftet up the alphabet: XDFYEZWJOSGMHPRAQNLITBUKVC
+New dot position: 13
+Wiring shiftet up the alphabet: YEGZFAXKPTHNIQSBROMJUCVLWD
+New dot position: 14
+Wiring shiftet up the alphabet: ZFHAGBYLQUIOJRTCSPNKVDWMXE
+New dot position: 15
+Wiring shiftet up the alphabet: AGIBHCZMRVJPKSUDTQOLWEXNYF
+New dot position: 16
+Wiring shiftet up the alphabet: BHJCIDANSWKQLTVEURPMXFYOZG
+New dot position: 17
+Wiring shiftet up the alphabet: CIKDJEBOTXLRMUWFVSQNYGZPAH
+New dot position: 18
+Rotation 01; Wiring: HCIKDJEBOTXLRMUWFVSQNYGZPA
+Rotation 02; Wiring: AHCIKDJEBOTXLRMUWFVSQNYGZP
+Rotation 03; Wiring: PAHCIKDJEBOTXLRMUWFVSQNYGZ
+Rotation 04; Wiring: ZPAHCIKDJEBOTXLRMUWFVSQNYG
+Rotation 05; Wiring: GZPAHCIKDJEBOTXLRMUWFVSQNY
+Rotation 06; Wiring: YGZPAHCIKDJEBOTXLRMUWFVSQN
+Rotation 07; Wiring: NYGZPAHCIKDJEBOTXLRMUWFVSQ
+Rotation 08; Wiring: QNYGZPAHCIKDJEBOTXLRMUWFVS
+Rotation 09; Wiring: SQNYGZPAHCIKDJEBOTXLRMUWFV
+Rotation 10; Wiring: VSQNYGZPAHCIKDJEBOTXLRMUWF
+Rotation 11; Wiring: FVSQNYGZPAHCIKDJEBOTXLRMUW
+Rotation 12; Wiring: WFVSQNYGZPAHCIKDJEBOTXLRMU
+Rotation 13; Wiring: UWFVSQNYGZPAHCIKDJEBOTXLRM
+Rotation 14; Wiring: MUWFVSQNYGZPAHCIKDJEBOTXLR
+Rotation 15; Wiring: RMUWFVSQNYGZPAHCIKDJEBOTXL
+Rotation 16; Wiring: LRMUWFVSQNYGZPAHCIKDJEBOTX
+Rotation 17; Wiring: XLRMUWFVSQNYGZPAHCIKDJEBOT
+Rotation 18; Wiring: TXLRMUWFVSQNYGZPAHCIKDJEBO
+Rotation 19; Wiring: OTXLRMUWFVSQNYGZPAHCIKDJEB
+Rotation 20; Wiring: BOTXLRMUWFVSQNYGZPAHCIKDJE
+Rotation 21; Wiring: EBOTXLRMUWFVSQNYGZPAHCIKDJ
+Rotation 22; Wiring: JEBOTXLRMUWFVSQNYGZPAHCIKD
+Rotation 23; Wiring: DJEBOTXLRMUWFVSQNYGZPAHCIK
+Rotation 24; Wiring: KDJEBOTXLRMUWFVSQNYGZPAHCI
+--------------------------------------
+Ringstellung: Y
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+KDJEBOTXLRMUWFVSQNYGZPAHCI
+--------------------------------------
+################################################
+
+
+################################################
+
+
+Ringstellung: 25
+Dot position: 20
+Wiring shiftet up the alphabet: FLNGMHERWAOUPXZIYVTQBJCSDK
+New dot position: 21
+Wiring shiftet up the alphabet: GMOHNIFSXBPVQYAJZWURCKDTEL
+New dot position: 22
+Wiring shiftet up the alphabet: HNPIOJGTYCQWRZBKAXVSDLEUFM
+New dot position: 23
+Wiring shiftet up the alphabet: IOQJPKHUZDRXSACLBYWTEMFVGN
+New dot position: 24
+Wiring shiftet up the alphabet: JPRKQLIVAESYTBDMCZXUFNGWHO
+New dot position: 25
+Wiring shiftet up the alphabet: KQSLRMJWBFTZUCENDAYVGOHXIP
+New dot position: 0
+Wiring shiftet up the alphabet: LRTMSNKXCGUAVDFOEBZWHPIYJQ
+New dot position: 1
+Wiring shiftet up the alphabet: MSUNTOLYDHVBWEGPFCAXIQJZKR
+New dot position: 2
+Wiring shiftet up the alphabet: NTVOUPMZEIWCXFHQGDBYJRKALS
+New dot position: 3
+Wiring shiftet up the alphabet: OUWPVQNAFJXDYGIRHECZKSLBMT
+New dot position: 4
+Wiring shiftet up the alphabet: PVXQWROBGKYEZHJSIFDALTMCNU
+New dot position: 5
+Wiring shiftet up the alphabet: QWYRXSPCHLZFAIKTJGEBMUNDOV
+New dot position: 6
+Wiring shiftet up the alphabet: RXZSYTQDIMAGBJLUKHFCNVOEPW
+New dot position: 7
+Wiring shiftet up the alphabet: SYATZUREJNBHCKMVLIGDOWPFQX
+New dot position: 8
+Wiring shiftet up the alphabet: TZBUAVSFKOCIDLNWMJHEPXQGRY
+New dot position: 9
+Wiring shiftet up the alphabet: UACVBWTGLPDJEMOXNKIFQYRHSZ
+New dot position: 10
+Wiring shiftet up the alphabet: VBDWCXUHMQEKFNPYOLJGRZSITA
+New dot position: 11
+Wiring shiftet up the alphabet: WCEXDYVINRFLGOQZPMKHSATJUB
+New dot position: 12
+Wiring shiftet up the alphabet: XDFYEZWJOSGMHPRAQNLITBUKVC
+New dot position: 13
+Wiring shiftet up the alphabet: YEGZFAXKPTHNIQSBROMJUCVLWD
+New dot position: 14
+Wiring shiftet up the alphabet: ZFHAGBYLQUIOJRTCSPNKVDWMXE
+New dot position: 15
+Wiring shiftet up the alphabet: AGIBHCZMRVJPKSUDTQOLWEXNYF
+New dot position: 16
+Wiring shiftet up the alphabet: BHJCIDANSWKQLTVEURPMXFYOZG
+New dot position: 17
+Wiring shiftet up the alphabet: CIKDJEBOTXLRMUWFVSQNYGZPAH
+New dot position: 18
+Wiring shiftet up the alphabet: DJLEKFCPUYMSNVXGWTROZHAQBI
+New dot position: 19
+Rotation 01; Wiring: IDJLEKFCPUYMSNVXGWTROZHAQB
+Rotation 02; Wiring: BIDJLEKFCPUYMSNVXGWTROZHAQ
+Rotation 03; Wiring: QBIDJLEKFCPUYMSNVXGWTROZHA
+Rotation 04; Wiring: AQBIDJLEKFCPUYMSNVXGWTROZH
+Rotation 05; Wiring: HAQBIDJLEKFCPUYMSNVXGWTROZ
+Rotation 06; Wiring: ZHAQBIDJLEKFCPUYMSNVXGWTRO
+Rotation 07; Wiring: OZHAQBIDJLEKFCPUYMSNVXGWTR
+Rotation 08; Wiring: ROZHAQBIDJLEKFCPUYMSNVXGWT
+Rotation 09; Wiring: TROZHAQBIDJLEKFCPUYMSNVXGW
+Rotation 10; Wiring: WTROZHAQBIDJLEKFCPUYMSNVXG
+Rotation 11; Wiring: GWTROZHAQBIDJLEKFCPUYMSNVX
+Rotation 12; Wiring: XGWTROZHAQBIDJLEKFCPUYMSNV
+Rotation 13; Wiring: VXGWTROZHAQBIDJLEKFCPUYMSN
+Rotation 14; Wiring: NVXGWTROZHAQBIDJLEKFCPUYMS
+Rotation 15; Wiring: SNVXGWTROZHAQBIDJLEKFCPUYM
+Rotation 16; Wiring: MSNVXGWTROZHAQBIDJLEKFCPUY
+Rotation 17; Wiring: YMSNVXGWTROZHAQBIDJLEKFCPU
+Rotation 18; Wiring: UYMSNVXGWTROZHAQBIDJLEKFCP
+Rotation 19; Wiring: PUYMSNVXGWTROZHAQBIDJLEKFC
+Rotation 20; Wiring: CPUYMSNVXGWTROZHAQBIDJLEKF
+Rotation 21; Wiring: FCPUYMSNVXGWTROZHAQBIDJLEK
+Rotation 22; Wiring: KFCPUYMSNVXGWTROZHAQBIDJLE
+Rotation 23; Wiring: EKFCPUYMSNVXGWTROZHAQBIDJL
+Rotation 24; Wiring: LEKFCPUYMSNVXGWTROZHAQBIDJ
+Rotation 25; Wiring: JLEKFCPUYMSNVXGWTROZHAQBID
+--------------------------------------
+Ringstellung: Z
+Final mapping:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+JLEKFCPUYMSNVXGWTROZHAQBID
+--------------------------------------
+################################################

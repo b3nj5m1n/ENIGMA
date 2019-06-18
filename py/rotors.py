@@ -44,3 +44,19 @@ class historical_rotors:
     al_UKW_A = rotor("UKW A", "-", "-", 'hSOuqaRf NvoxJCpWGBygYQ8V6F1sliHUAetmdkzLPE3cjDK2MTn7bwr54Z0X.9I', al_alphabet, "UKW", ["A"])
     al_UKW_B = rotor("UKW B", "2.11.1937", "-", ' IxMfZ2aBycnD3Xtklmwd09O4FHgKUqEb7jiQRSL.vesrP6pTCJ8V5GNY1uhzWoA', al_alphabet, "UKW", ["A"])
     al_UKW_C = rotor("UKW C", "1940/1941", "-", 'M1enYldLQgWHAZcwItUvSxK2ENuyOGCzJ3 4rFsD6.9kmRaTPVbf5BXhj0o87qpi', al_alphabet, "UKW", ["A"])
+
+    co_alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,?!: '
+    co_wirings = ['YNFf8l92V3c,sQUIK0dOraq:Wx5Pomg?1!LSejHvzGMkbpD6Cu.EXh7Ri nA4JZwtByT',
+    '1K6jH5,tWpwn?giR8r0P:z4UTSsbMyFkf7dOeZ3um2cGQ!Co. qaVIlxBXDvLNJEA9Yh',
+    'PkKCWrRpAX?B!xEO04:QIcm LMegUF9j32Sy6uv.szoZDqnd7,1JwblfhVTGY5taiHN8',
+    'es!6vOcuVg5pd1Fy,t W8IT9.xzfGMAbJklnhi:j3L40BRHE?ZParN7oqKD2UXYQwCmS',
+    'G5q0IcAZEslyazTd!7bOpXoV,HMSFP?jur8f6KvtWUChJngm1.LNDw4 2BkRi:xYeQ93',
+    'IaTmi5SOArVp?qHfxjGC4K.s:!B7wy,PozER09D6gLNJX8 2cQdhk3v1UFnbtlWeMZYu']
+    # Upper & Lowercase as well as numbers
+    co_ETW = rotor("ETW", "1930", "Enigma I", co_alphabet, co_alphabet, "ETW", ["A"])
+    co_I = rotor("I", "1930", "Enigma I", co_wirings[0], co_alphabet, "NORMAL", ["Q"])
+    co_II = rotor("II", "1930", "Enigma I", co_wirings[1], co_alphabet, "NORMAL", ["E"])
+    co_III = rotor("III", "1930", "Enigma I", co_wirings[2], co_alphabet, "NORMAL", ["V"])
+    co_UKW_A = rotor("UKW A", "-", "-", co_wirings[3], co_alphabet, "UKW", ["A"])
+    co_UKW_B = rotor("UKW B", "2.11.1937", "-", co_wirings[4], co_alphabet, "UKW", ["A"])
+    co_UKW_C = rotor("UKW C", "1940/1941", "-", co_wirings[5], co_alphabet, "UKW", ["A"])

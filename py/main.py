@@ -22,14 +22,23 @@ def main(args=sys.argv[1:]):
     # w = walzensatz(walzen)
     # print(w.enc_string("AAAA"))
 
-    walzen = [walze(rotors.historical_rotors.al_III, "A", "A"),
-    walze(rotors.historical_rotors.al_II, "A", "A"),
-    walze(rotors.historical_rotors.al_I, "A", "A"),
-    walze(rotors.historical_rotors.al_ETW, "A", "A"),
-    walze(rotors.historical_rotors.al_UKW_B, "A", "A")]
+    # walzen = [walze(rotors.historical_rotors.al_III, "A", "A"),
+    # walze(rotors.historical_rotors.al_II, "A", "A"),
+    # walze(rotors.historical_rotors.al_I, "A", "A"),
+    # walze(rotors.historical_rotors.al_ETW, "A", "A"),
+    # walze(rotors.historical_rotors.al_UKW_B, "A", "A")]
+    # w = walzensatz(walzen)
+    # # print(w.enc_string("Hello my friend how are you."))
+    # print(w.enc_string("17GprdXzojSUreJEqAZaHUIEwWoN"))
+
+    walzen = [walze(rotors.historical_rotors.co_III, "A", "A"),
+    walze(rotors.historical_rotors.co_II, "A", "A"),
+    walze(rotors.historical_rotors.co_I, "A", "A"),
+    walze(rotors.historical_rotors.co_ETW, "A", "A"),
+    walze(rotors.historical_rotors.co_UKW_B, "A", "A")]
     w = walzensatz(walzen)
-    # print(w.enc_string("Hello my friend how are you."))
-    print(w.enc_string("17GprdXzojSUreJEqAZaHUIEwWoN"))
+    # print(w.enc_string("Hello my friend, how are you?"))
+    print(w.enc_string("maE,7ZIl2qEq3OYwrNNZozPMpQWey"))
 
 
 

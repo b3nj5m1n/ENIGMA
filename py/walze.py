@@ -22,7 +22,7 @@ class walze(object):
             # Loop over integers in temporary wiring
             for i in temp_wiring:
                 # Shift the char by one up the alphabet and add that shifted char to wiring varibable
-                self.wiring.append(i + 1)
+                self.wiring.append((i + 1) % len(self.rotor.alphabet))
             # Add one to dot position
             self.dot_position = (self.dot_position + 1) % len(self.rotor.alphabet)
         # While the letter at the dot position doesn't match with the Ringstellung
@@ -39,7 +39,7 @@ class walze(object):
         self.grundstellung = self.rotor.alphabet.index(grundstellung)
         # Rotate until rotation matches Grundstellung
         while not self.rotation == self.grundstellung:
-            self.rotate()
+            self.rotation = (self.rotation + 1) % len(self.rotor.alphabet)
         # Set notch postions
         self.notches = self.rotor.notches
 

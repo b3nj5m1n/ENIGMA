@@ -24,3 +24,23 @@ class historical_rotors:
     Gamma = rotor("Gamma", "1.7.1943", "M4", "FSOKANUERHMBTIYCWLQPZXVGJD", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "GRW", ["A"])
     UKW_Bruno = rotor("UKW Bruno", "1.2.1942", "M4", "ENKQAUYWJICOPBLMDXZVFTHRGS", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ["A"])
     UKW_Cäsar = rotor("UKW Cäsar", "1.7.1943", "M4", "RDOBJNTKVEHMLFCWZAXGYIPSUQ", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ["A"])
+
+    ul_alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+    # Upper & Lowercase as well as numbers
+    ul_ETW = rotor("ETW", "1930", "Enigma I", 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789', ul_alphabet, "ETW", ["A"])
+    ul_I = rotor("I", "1930", "Enigma I", 'xmlGHpXMucE9Dnt0LQ8IvU7S5P4yeBTokijaWRrKYbJF3dOwqhZ62zVsfCAgN1', ul_alphabet, "NORMAL", ["Q"])
+    ul_II = rotor("II", "1930", "Enigma I", 'EfnlwWs5kzbgRML3jcAJyFVi1xCeDdXqva68pUrBIGoKP7Z9m4u0SNTQ2hHtOY', ul_alphabet, "NORMAL", ["E"])
+    ul_III = rotor("III", "1930", "Enigma I", 'aCc0RdH7y6rUg5XjAzKpPm3i8SBOZwustnFV9NkWMbJTGDLoq2hIfel1EY4Qvx', ul_alphabet, "NORMAL", ["V"])
+    ul_UKW_A = rotor("UKW A", "-", "-", 'V9lP6reqYWo87vgDd4zt0AJnIwjukQGmOs2acCfXK1HFhTbNZ35SUpixRyEMLB', ul_alphabet, "UKW", ["A"])
+    ul_UKW_B = rotor("UKW B", "2.11.1937", "-", 'XPL64bviYt8CNMhBnpzjc3gAI7yFUed2WOHTomlQkR9w1J5Gr0aSxsfVEuDZKq', ul_alphabet, "UKW", ["A"])
+    ul_UKW_C = rotor("UKW C", "1940/1941", "-", '5UaZQLJ4jG3FvpcXE6foBYlPVDCiOmuSt0bI1Wd7TN9srgeM2yx8hkwKHARnzq', ul_alphabet, "UKW", ["A"])
+
+    al_alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789. '
+    # Upper & Lowercase as well as numbers
+    al_ETW = rotor("ETW", "1930", "Enigma I", 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789. ', al_alphabet, "ETW", ["A"])
+    al_I = rotor("I", "1930", "Enigma I", 'aQZ74Suet891msxzDNjwWKIlCAOy ghGHXdbPLFoE0RkcpirT.Mn6f35YVvB2JUq', al_alphabet, "NORMAL", ["Q"])
+    al_II = rotor("II", "1930", "Enigma I", 'DSnIX7tTqPzvUY0OM fKHdoba6piFBEs1eN5lr83VhLjcuWG9CAy2m.QJZwR4xkg', al_alphabet, "NORMAL", ["E"])
+    al_III = rotor("III", "1930", "Enigma I", 'Kt7f5oVGwHY6ek8cuC1njiEA WyN0TlUdXORpQBxL2qJmDg9Iz.Ma3PvrbsSF4Zh', al_alphabet, "NORMAL", ["V"])
+    al_UKW_A = rotor("UKW A", "-", "-", 'hSOuqaRf NvoxJCpWGBygYQ8V6F1sliHUAetmdkzLPE3cjDK2MTn7bwr54Z0X.9I', al_alphabet, "UKW", ["A"])
+    al_UKW_B = rotor("UKW B", "2.11.1937", "-", ' IxMfZ2aBycnD3Xtklmwd09O4FHgKUqEb7jiQRSL.vesrP6pTCJ8V5GNY1uhzWoA', al_alphabet, "UKW", ["A"])
+    al_UKW_C = rotor("UKW C", "1940/1941", "-", 'M1enYldLQgWHAZcwItUvSxK2ENuyOGCzJ3 4rFsD6.9kmRaTPVbf5BXhj0o87qpi', al_alphabet, "UKW", ["A"])

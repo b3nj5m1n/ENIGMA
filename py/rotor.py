@@ -12,12 +12,12 @@ class rotor(object):
         self.model = model
         # Wiring variable; Example: "[4, 10, 12, 5, 11, 6, 3, 16, 21, 25, 13, 19, 14, 22, 24, 7, 23, 20, 18, 15, 0, 8, 1, 17, 2, 9]"
         self.wiring = []
+        # Set alphabet variable; Example: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        self.alphabet = alphabet
         # Loop over the wiring string
         for char in wiring:
             # Append the index of that char in the alphabet to the wiring varibale of the rotor; Examples: A=0, B=1
-            self.wiring.append(alphabet.index(char))
-        # Set alphabet variable; Example: "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        self.alphabet = alphabet
+            self.wiring.append(self.alphabet.index(char))
         # WER identifier; Example: "ETW", "NORMAL"
         self.wer = wer
         # Notch postions; Examples: "Z", "M"

@@ -1,4 +1,4 @@
-
+import pickle as pickle
 
 class walzensatz(object):
     '''Walzensatz object representing a collection of walzen'''
@@ -114,5 +114,10 @@ class walzensatz(object):
         # Return the result
         return result
 
-
-
+    def save(self, output):
+        with open(output, "wb") as out:
+            pickle.dump(self, out, pickle.HIGHEST_PROTOCOL)
+    @staticmethod
+    def restore(input):
+        with open(input, "rb") as inp:
+            return pickle.load(inp)

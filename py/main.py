@@ -36,10 +36,10 @@ def main(args=sys.argv[1:]):
     walze(rotors.rotors.common_symbols.I, "A", "A"),
     walze(rotors.rotors.common_symbols.ETW, "A", "A"),
     walze(rotors.rotors.common_symbols.UKW_B, "A", "A")]
-    w = walzensatz(walzen)
-    # print(w.enc_string("Hello my friend, how are you?"))
-    print(w.enc_string("maE,7ZIl2qEq3OYwrNNZozPMpQWey"))
-
+    w = walzensatz.restore("save.pkl") # walzensatz(walzen)
+    # w.save("save.pkl")
+    print(w.enc_string("AAAA"))
+    
 
 
 # Call the main function at the end of the file

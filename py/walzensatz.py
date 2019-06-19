@@ -29,6 +29,8 @@ class walzensatz(object):
         if not hasattr(self, "ETW") or not hasattr(self, "UKW"):
             print("ETW or UKW missing.")
             exit()
+        # Create an inital settings copy of object instance
+        self.inital = self.save("", True)
     def rotate_doublestepping(self, rotations):
         '''This will simulate the double stepping anomaly, making the simulator accurate for historical enigmas'''
         # If the first rotor is at notch postion
@@ -113,11 +115,15 @@ class walzensatz(object):
             result += self.enc(char)
         # Return the result
         return result
-
-    def save(self, output):
-        with open(output, "wb") as out:
-            pickle.dump(self, out, pickle.HIGHEST_PROTOCOL)
+    def save(self, output, ret=False):
+        '''Saves object instance to file or returns is'''
+        if not ret:
+            with open(output, "wb") as out:
+                pickle.dump(self, out, pickle.HIGHEST_PROTOCOL)
+        else:
+            return pickle.dumps(self, pickle.HIGHEST_PROTOCOL)
     @staticmethod
     def restore(input):
+        '''Restores object from save'''
         with open(input, "rb") as inp:
             return pickle.load(inp)

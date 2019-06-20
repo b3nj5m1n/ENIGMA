@@ -1,7 +1,9 @@
 import sys
 import rotors
 from walze import walze
-from walzensatz import walzensatz
+import enigma
+
+
 # Main function, args varibale will be set to all the arguments supplied, except for the first one because thats just the name of the python file
 def main(args=sys.argv[1:]):
 
@@ -31,14 +33,44 @@ def main(args=sys.argv[1:]):
     # # print(w.enc_string("Hello my friend how are you."))
     # print(w.enc_string("17GprdXzojSUreJEqAZaHUIEwWoN"))
 
-    walzen = [walze(rotors.historicalrotors.M3.III, "A", "M"),
-    walze(rotors.historicalrotors.M3.V, "A", "C"),
-    walze(rotors.historicalrotors.M3.VIII, "A", "Q"),
-    walze(rotors.historicalrotors.M3.ETW, "A", "A"),
-    walze(rotors.historicalrotors.M3.UKW_B, "A", "A")]
-    w = walzensatz(walzen) # walzensatz.restore("save.pkl")
+    ROTORS = [
+        rotors.historicalrotors.M3.I,
+        rotors.historicalrotors.M3.II,
+        rotors.historicalrotors.M3.III,
+        rotors.historicalrotors.M3.IV,
+        rotors.historicalrotors.M3.V,
+        rotors.historicalrotors.M3.VI,
+        rotors.historicalrotors.M3.VII,
+        rotors.historicalrotors.M3.VIII,
+        rotors.historicalrotors.M3.ETW,
+        rotors.historicalrotors.M3.UKW_B,
+        rotors.historicalrotors.M3.UKW_C
+    ]
+    # w = walzensatz(walzen) # walzensatz.restore("save.pkl")
     # w.save("save.pkl")
-    print(w.enc_string("ALANMATHISONTURINGOBEFRSTJRJUNEJUNEWASANENGLISHMATHEMATICIANCOMPUTERSCIENTISTLOGICIANCRYPTANALYSTPHILOSOPHERANDTHEORETICALBIOLOGISTTURINGWASHIGHLYINFLUENTIALINTHEDEVELOPMENTOFTHEORETICALCOMPUTERSCIENCEPROVIDINGAFORMALISATIONOFTHECONCEPTSOFALGORITHMANDCOMPUTATIONWITHTHETURINGMACHINEWHICHCANBECONSIDEREDAMODELOFAGENERALPURPOSECOMPUTERTURINGISWIDELYCONSIDEREDTOBETHEFATHEROFTHEORETICALCOMPUTERSCIENCEANDARTIFICIALINTELLIGENCEDESPITETHESEACCOMPLISHMENTSHEWASNEVERFULLYRECOGNISEDINHISHOMECOUNTRYDURINGHISLIFETIMEDUETOHISHOMOSEXUALITYWHICHWASTHENACRIMEINTHEUK"))
+
+    ENIGMA = enigma.ENIGMA(ROTORS, "M3", 4)
+    SETTINGS = [
+        ["A", "A"],
+        ["A", "A"],
+        ["A", "A"],
+        ["A", "A"],
+        ["A", "A"]
+    ]
+    WALZEN = [
+        2,
+        1,
+        0,
+        8,
+        9
+    ]
+    STECKBRETT = [
+        
+    ]
+    ENIGMA.create_enigma(SETTINGS, WALZEN, STECKBRETT)
+    print( ENIGMA.enc_string("AAAAAAAA") )
+
+    # print(w.enc_string("ALANMATHISONTURINGOBEFRSTJRJUNEJUNEWASANENGLISHMATHEMATICIANCOMPUTERSCIENTISTLOGICIANCRYPTANALYSTPHILOSOPHERANDTHEORETICALBIOLOGISTTURINGWASHIGHLYINFLUENTIALINTHEDEVELOPMENTOFTHEORETICALCOMPUTERSCIENCEPROVIDINGAFORMALISATIONOFTHECONCEPTSOFALGORITHMANDCOMPUTATIONWITHTHETURINGMACHINEWHICHCANBECONSIDEREDAMODELOFAGENERALPURPOSECOMPUTERTURINGISWIDELYCONSIDEREDTOBETHEFATHEROFTHEORETICALCOMPUTERSCIENCEANDARTIFICIALINTELLIGENCEDESPITETHESEACCOMPLISHMENTSHEWASNEVERFULLYRECOGNISEDINHISHOMECOUNTRYDURINGHISLIFETIMEDUETOHISHOMOSEXUALITYWHICHWASTHENACRIMEINTHEUK"))
     
 
 

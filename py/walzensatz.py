@@ -105,25 +105,3 @@ class walzensatz(object):
         # Put the letter through the ETW and return the corresponding letter
         alphabet = self.ETW.rotor.alphabet
         return alphabet[self.ETW.enc(x, True)]
-    def enc_string(self, string):
-        '''Encode a string, return the string'''
-        # Result string, where encoded chars will be added to
-        result = ""
-        # Loop over chars in provided string
-        for char in string:
-            # Add encoded char to result
-            result += self.enc(char)
-        # Return the result
-        return result
-    def save(self, output, ret=False):
-        '''Saves object instance to file or returns is'''
-        if not ret:
-            with open(output, "wb") as out:
-                pickle.dump(self, out, pickle.HIGHEST_PROTOCOL)
-        else:
-            return pickle.dumps(self, pickle.HIGHEST_PROTOCOL)
-    @staticmethod
-    def restore(input):
-        '''Restores object from save'''
-        with open(input, "rb") as inp:
-            return pickle.load(inp)

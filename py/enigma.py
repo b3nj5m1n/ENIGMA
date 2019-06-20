@@ -1,6 +1,7 @@
 from steckbrett import steckbrett
 from walzensatz import walzensatz
 from walze import walze
+import pickle as pickle
 
 class ENIGMA(object):
     '''Enigma object'''
@@ -62,3 +63,16 @@ class ENIGMA(object):
         result = " ".join([result[i:i+self.n] for i in range(0, len(result), self.n)])
         # Return the result
         return result
+    
+    def save(self, output, ret=False):
+        '''Saves object instance to file or returns is'''
+        if not ret:
+            with open(output, "wb") as out:
+                pickle.dump(self, out, pickle.HIGHEST_PROTOCOL)
+        else:
+            return pickle.dumps(self, pickle.HIGHEST_PROTOCOL)
+    @staticmethod
+    def restore(input):
+        '''Restores object from save'''
+        with open(input, "rb") as inp:
+            return pickle.load(inp)

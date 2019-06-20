@@ -5,14 +5,14 @@ import pickle as pickle
 
 class ENIGMA(object):
     '''Enigma object'''
-    def __init__(self, rotors, name="ENIGMA", letter_divion=4):
+    def __init__(self, rotors, name="ENIGMA", letter_division=4):
         '''Initalize ENIGMA object'''
         # Name of the machine
         self.name = name
         # Possible walzen to choose from
         self.possible_rotors = rotors
         # Set letter divsion
-        self.n = letter_divion
+        self.n = letter_division
         # Make sure object is only used after it is created
         self.created = False
     def create_enigma(self, settings, rotors, plugboard):
@@ -63,7 +63,8 @@ class ENIGMA(object):
         result = " ".join([result[i:i+self.n] for i in range(0, len(result), self.n)])
         # Return the result
         return result
-    
+    def change_letter_division(self, new_letter_division):
+        self.n = new_letter_division
     def save(self, output, ret=False):
         '''Saves object instance to file or returns is'''
         if not ret:

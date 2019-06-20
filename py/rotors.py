@@ -37,7 +37,7 @@ class rotors:
         UKW_C = rotor("UKW C", "-", "-", wirings[5], alphabet, "UKW", ["A"])
 
 
-class historicrotors:
+class historicalrotors:
     # Most common Enigma in the German army
     class M3:
         alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"

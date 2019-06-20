@@ -1,4 +1,4 @@
-import pickle as pickle
+import pickle
 
 class walzensatz(object):
     '''Walzensatz object representing a collection of walzen'''
@@ -105,3 +105,10 @@ class walzensatz(object):
         # Put the letter through the ETW and return the corresponding letter
         alphabet = self.ETW.rotor.alphabet
         return alphabet[self.ETW.enc(x, True)]
+    def save(self, output, ret=False):
+        '''Saves object instance to file or returns is'''
+        if not ret:
+            with open(output, "wb") as out:
+                pickle.dump(self, out, pickle.HIGHEST_PROTOCOL)
+        else:
+            return pickle.dumps(self, pickle.HIGHEST_PROTOCOL)

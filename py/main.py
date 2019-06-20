@@ -31,14 +31,14 @@ def main(args=sys.argv[1:]):
     # # print(w.enc_string("Hello my friend how are you."))
     # print(w.enc_string("17GprdXzojSUreJEqAZaHUIEwWoN"))
 
-    walzen = [walze(rotors.rotors.common_symbols.III, "A", "A"),
-    walze(rotors.rotors.common_symbols.II, "A", "A"),
-    walze(rotors.rotors.common_symbols.I, "A", "A"),
-    walze(rotors.rotors.common_symbols.ETW, "A", "A"),
-    walze(rotors.rotors.common_symbols.UKW_B, "A", "A")]
-    w = walzensatz.restore("save.pkl") # walzensatz(walzen)
+    walzen = [walze(rotors.historicalrotors.M3.III, "A", "M"),
+    walze(rotors.historicalrotors.M3.V, "A", "C"),
+    walze(rotors.historicalrotors.M3.VIII, "A", "Q"),
+    walze(rotors.historicalrotors.M3.ETW, "A", "A"),
+    walze(rotors.historicalrotors.M3.UKW_B, "A", "A")]
+    w = walzensatz(walzen) # walzensatz.restore("save.pkl")
     # w.save("save.pkl")
-    print(w.enc_string("AAAA"))
+    print(w.enc_string("ALANMATHISONTURINGOBEFRSTJRJUNEJUNEWASANENGLISHMATHEMATICIANCOMPUTERSCIENTISTLOGICIANCRYPTANALYSTPHILOSOPHERANDTHEORETICALBIOLOGISTTURINGWASHIGHLYINFLUENTIALINTHEDEVELOPMENTOFTHEORETICALCOMPUTERSCIENCEPROVIDINGAFORMALISATIONOFTHECONCEPTSOFALGORITHMANDCOMPUTATIONWITHTHETURINGMACHINEWHICHCANBECONSIDEREDAMODELOFAGENERALPURPOSECOMPUTERTURINGISWIDELYCONSIDEREDTOBETHEFATHEROFTHEORETICALCOMPUTERSCIENCEANDARTIFICIALINTELLIGENCEDESPITETHESEACCOMPLISHMENTSHEWASNEVERFULLYRECOGNISEDINHISHOMECOUNTRYDURINGHISLIFETIMEDUETOHISHOMOSEXUALITYWHICHWASTHENACRIMEINTHEUK"))
     
 
 

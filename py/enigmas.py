@@ -36,13 +36,3 @@ class enigmas:
             rotors.historicalrotors.M4.UKW_Cäsar # 12
         ]
         ENIGMA = ENIGMA(ROTORS, "M4", 5)
-
-
-
-
-
-
-
-
-
-

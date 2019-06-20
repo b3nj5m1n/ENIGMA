@@ -8,6 +8,7 @@ def main(args=sys.argv[1:]):
         ["A", "A"],
         ["A", "A"],
         ["A", "A"],
+        ["A", "A"],
         ["A", "A"]
     ]
     WALZEN = [
@@ -15,15 +16,12 @@ def main(args=sys.argv[1:]):
         1,
         0,
         8,
-        9
+        10,
+        11
     ]
     STECKBRETT = [
-        "AU",
-        "ZP",
-        "LB",
-        "KW"
     ]
-    ENIGMA = enigmas.M3.ENIGMA
+    ENIGMA = enigmas.M4.ENIGMA
     ENIGMA.create_enigma(SETTINGS, WALZEN, STECKBRETT)
     print( ENIGMA.enc_string("AAAAAAAAAA") )
 

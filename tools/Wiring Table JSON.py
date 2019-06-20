@@ -833,23 +833,23 @@ for i in range(0, len(rotors)):
         notches.append(char)
     if json_load["Wheel"] in ["ETW", "UKW", "GRW"]:
         notches = [alphabet[0]]
-    # wheels.append("rotor(\"%s\", \"-\", \"%s\", \"%s\", \"%s\", \"%s\", \"%s\")"  % (json_load["Wheel"], json_load["Model"], json_load["Wiring"], json_load["Alphabet"], json_load["Wheel"], notches))
+    print("rotor(\"%s\", \"-\", \"%s\", \"%s\", \"%s\", \"%s\", %s)"  % (json_load["Wheel"], json_load["Model"], json_load["Wiring"], json_load["Alphabet"], json_load["Wheel"], notches))
     # (, json_load["Model"], json_load["Wiring"], json_load["Alphabet"], json_load["Wheel"], notches)
     wer = ""
     if not json_load["Wheel"] in ["ETW", "UKW", "GRW"]:
         wer = "NORMAL"
     wheel = json_load["Wheel"]
     model = json_load["Model"]
-    print("______")
-    print(wheel)
-    print(model)
-    print(wiring)
-    print(alphabet)
-    print(wer)
-    print(notches)
-    print("______")
+    # print("______")
+    # print(wheel)
+    # print(model)
+    # print(wiring)
+    # print(alphabet)
+    # print(wer)
+    # print(notches)
+    # print("______")
     wheels.append(rotor(wheel, "-", model, wiring, alphabet, wer, notches))
 
 
-for wheel in wheels:
-    print(wheel)
+# for wheel in wheels:
+#     print(wheel)

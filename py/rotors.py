@@ -123,7 +123,13 @@ class historicalrotors:
         II = rotor("II", "-", "Zählwerk Enigma (Enigma GA312 | Abwehr Enigma)", "HQZGPJTMOBLNCIFDYAWVEUSRKX", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'T', 'V', 'Y', 'Z', 'A', 'C', 'D', 'F', 'G', 'H', 'K', 'M', 'N', 'Q'])
         III = rotor("III", "-", "Zählwerk Enigma (Enigma GA312 | Abwehr Enigma)", "UQNTLSZFMREHDPXKIBVYGJCWOA", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['U', 'W', 'X', 'A', 'E', 'F', 'H', 'K', 'M', 'N', 'R'])
         UKW = rotor("UKW", "-", "Zählwerk Enigma (Enigma GA312 | Abwehr Enigma)", "RULQMZJSYGOCETKWDAHNBXPVIF", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
-
+    class Zählwerk_Enigma_GA260:
+        ETW = rotor("ETW", "-", "Zählwerk Enigma (Enigma GA260 | Sicherheitsdienst Enigma)", "QWERTZUIOASDFGHJKPYXCVBNML", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
+        I = rotor("I", "-", "Zählwerk Enigma (Enigma GA260 | Sicherheitsdienst Enigma)", "RCSPBLKQAUMHWYTIFZVGOJNEXD", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'U', 'V', 'W', 'Z', 'A', 'B', 'C', 'E', 'F', 'G', 'I', 'K', 'L', 'O', 'P', 'Q'])
+        II = rotor("II", "-", "Zählwerk Enigma (Enigma GA260 | Sicherheitsdienst Enigma)", "WCMIBVPJXAROSGNDLZKEYHUFQT", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'T', 'V', 'Y', 'Z', 'A', 'C', 'D', 'F', 'G', 'H', 'K', 'M', 'N', 'Q'])
+        III = rotor("III", "-", "Zählwerk Enigma (Enigma GA260 | Sicherheitsdienst Enigma)", "FVDHZELSQMAXOKYIWPGCBUJTNR", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['U', 'W', 'X', 'A', 'E', 'F', 'H', 'K', 'M', 'N', 'R'])
+        UKW = rotor("UKW", "-", "Zählwerk Enigma (Enigma GA260 | Sicherheitsdienst Enigma)", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
+        
 
 
 

@@ -60,7 +60,8 @@ class ENIGMA(object):
             # Add encoded char to result
             result += self.enc(char)
         # Split string into pairs of n (Letter division)
-        result = " ".join([result[i:i+self.n] for i in range(0, len(result), self.n)])
+        if not self.n == 0:
+            result = " ".join([result[i:i+self.n] for i in range(0, len(result), self.n)])
         # Return the result
         return result
     def change_letter_division(self, new_letter_division):

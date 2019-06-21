@@ -133,3 +133,13 @@ class enigmas:
         ]
         ENIGMA = ENIGMA(ROTORS, "Zählwerk Enigma G A260", 5)
 
+    class Zählwerk_Enigma_GA111:
+        ROTORS = [
+            rotors.historicalrotors.Zählwerk_Enigma_GA111.I, # 0
+            rotors.historicalrotors.Zählwerk_Enigma_GA111.II, # 1
+            rotors.historicalrotors.Zählwerk_Enigma_GA111.III, # 2
+            rotors.historicalrotors.Zählwerk_Enigma_GA111.ETW, # 3
+            rotors.historicalrotors.Zählwerk_Enigma_GA111.UKW, # 4
+        ]
+        ENIGMA = ENIGMA(ROTORS, "Zählwerk Enigma G A111", 5)
+

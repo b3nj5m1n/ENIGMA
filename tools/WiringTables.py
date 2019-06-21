@@ -1,16 +1,3 @@
-
-rotor("ETW", "-", "Zählwerk Enigma (Enigma GA260 | Sicherheitsdienst Enigma)", "QWERTZUIOASDFGHJKPYXCVBNML", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
-rotor("I", "-", "Zählwerk Enigma (Enigma GA260 | Sicherheitsdienst Enigma)", "RCSPBLKQAUMHWYTIFZVGOJNEXD", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'U', 'V', 'W', 'Z', 'A', 'B', 'C', 'E', 'F', 'G', 'I', 'K', 'L', 'O', 'P', 'Q'])
-rotor("II", "-", "Zählwerk Enigma (Enigma GA260 | Sicherheitsdienst Enigma)", "WCMIBVPJXAROSGNDLZKEYHUFQT", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'T', 'V', 'Y', 'Z', 'A', 'C', 'D', 'F', 'G', 'H', 'K', 'M', 'N', 'Q'])
-rotor("III", "-", "Zählwerk Enigma (Enigma GA260 | Sicherheitsdienst Enigma)", "FVDHZELSQMAXOKYIWPGCBUJTNR", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['U', 'W', 'X', 'A', 'E', 'F', 'H', 'K', 'M', 'N', 'R'])
-rotor("UKW", "-", "Zählwerk Enigma (Enigma GA260 | Sicherheitsdienst Enigma)", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
-
-rotor("ETW", "-", "Zählwerk Enigma (Enigma GA111 | Hungarian Army Enigma)", "QWERTZUIOASDFGHJKPYXCVBNML", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
-rotor("I", "-", "Zählwerk Enigma (Enigma GA111 | Hungarian Army Enigma)", "WLRHBQUNDKJCZSEXOTMAGYFPVI", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'U', 'V', 'W', 'Z', 'A', 'B', 'C', 'E', 'F', 'G', 'I', 'K', 'L', 'O', 'P', 'Q'])
-rotor("II", "-", "Zählwerk Enigma (Enigma GA111 | Hungarian Army Enigma)", "TFJQAZWMHLCUIXRDYGOEVBNSKP", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'T', 'V', 'Y', 'Z', 'A', 'C', 'D', 'F', 'G', 'H', 'K', 'M', 'N', 'Q'])
-rotor("V", "-", "Zählwerk Enigma (Enigma GA111 | Hungarian Army Enigma)", "QTPIXWVDFRMUSLJOHCANEZKYBG", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'W', 'Z', 'F', 'H', 'M', 'Q'])
-rotor("UKW", "-", "Zählwerk Enigma (Enigma GA111 | Hungarian Army Enigma)", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
-
 rotor("ETW", "-", "Enigma T (Tirpitz)", "KZROUQHYAIGBLWVSTDXFPNMCJE", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
 rotor("I", "-", "Enigma T (Tirpitz)", "KPTYUELOCVGRFQDANJMBSWHZXI", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['W', 'Z', 'E', 'K', 'Q'])
 rotor("II", "-", "Enigma T (Tirpitz)", "UPHZLWEQMTDJXCAKSOIGVBYFNR", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['W', 'Z', 'F', 'L', 'R'])

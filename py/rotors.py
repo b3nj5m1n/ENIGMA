@@ -105,6 +105,12 @@ class historicalrotors:
         IV = rotor("IV", "-", "Norway Enigma (Enigma I variant)", "ESOVPZJAYQUIRHXLNFTGKDCMWB", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['J'])
         V = rotor("V", "-", "Norway Enigma (Enigma I variant)", "HEJXQOTZBVFDASCILWPGYNMURK", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['Z'])
         UKW  = rotor("UKW", "-", "Norway Enigma (Enigma I variant)", "MOWJYPUXNDSRAIBFVLKZGQCHET", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
+    class Zählwerk_Enigma_A28:
+        ETW = rotor("ETW", "-", "Zählwerk Enigma A28", "QWERTZUIOASDFGHJKPYXCVBNML", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
+        I = rotor("I", "-", "Zählwerk Enigma A28", "LPGSZMHAEOQKVXRFYBUTNICJDW", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'U', 'V', 'W', 'Z', 'A', 'B', 'C', 'E', 'F', 'G', 'I', 'K', 'L', 'O', 'P', 'Q'])
+        II = rotor("II", "-", "Zählwerk Enigma A28", "SLVGBTFXJQOHEWIRZYAMKPCNDU", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'T', 'V', 'Y', 'Z', 'A', 'C', 'D', 'F', 'G', 'H', 'K', 'M', 'N', 'Q'])
+        III = rotor("III", "-", "Zählwerk Enigma A28", "CJGDPSHKTURAWZXFMYNQOBVLIE", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['U', 'W', 'X', 'A', 'E', 'F', 'H', 'K', 'M', 'N', 'R'])
+        UKW = rotor("UKW", "-", "Zählwerk Enigma A28", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
 
 
 

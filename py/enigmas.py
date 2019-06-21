@@ -92,3 +92,15 @@ class enigmas:
             rotors.historicalrotors.Norway_Enigma.UKW, # 6
         ]
         ENIGMA = ENIGMA(ROTORS, "Norway Enigma", 5)
+
+    class Zählwerk_Enigma_A28:
+        ROTORS = [
+            rotors.historicalrotors.Zählwerk_Enigma_A28.I, # 0
+            rotors.historicalrotors.Zählwerk_Enigma_A28.II, # 1
+            rotors.historicalrotors.Zählwerk_Enigma_A28.III, # 2
+            rotors.historicalrotors.Zählwerk_Enigma_A28.ETW, # 3
+            rotors.historicalrotors.Zählwerk_Enigma_A28.UKW, # 4
+        ]
+        ENIGMA = ENIGMA(ROTORS, "Zählwerk Enigma A28", 5)
+
+

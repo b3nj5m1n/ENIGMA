@@ -188,6 +188,16 @@ class enigmas:
         ]
         ENIGMA = ENIGMA(ROTORS, "Enigma Railway (Rocket)", 5)
 
+    class Enigma_Z:
+        ROTORS = [
+            rotors.historicalrotors.Enigma_Z.I, # 0
+            rotors.historicalrotors.Enigma_Z.II, # 1
+            rotors.historicalrotors.Enigma_Z.III, # 2
+            rotors.historicalrotors.Enigma_Z.ETW, # 3
+            rotors.historicalrotors.Enigma_Z.UKW, # 4
+        ]
+        ENIGMA = ENIGMA(ROTORS, "Enigma Z", 5)
+
     
 
 

@@ -4,11 +4,11 @@ from enigmas import enigmas
 
 def main(args=sys.argv[1:]):
     SETTINGS = [
-        ["A", "A"],
-        ["A", "A"],
-        ["A", "A"],
-        ["A", "A"],
-        ["A", "A"]
+        ["0", "0"],
+        ["0", "0"],
+        ["0", "0"],
+        ["0", "0"],
+        ["0", "0"]
     ]
     WALZEN = [
         2,
@@ -19,9 +19,9 @@ def main(args=sys.argv[1:]):
     ]
     STECKBRETT = [
     ]
-    ENIGMA = enigmas.Enigma_Railyway.ENIGMA
+    ENIGMA = enigmas.Enigma_Z.ENIGMA
     ENIGMA.create_enigma(SETTINGS, WALZEN, STECKBRETT)
-    print( ENIGMA.enc_string("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA") )
+    print( ENIGMA.enc_string("0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000") )
 
 
 # Call the main function at the end of the file

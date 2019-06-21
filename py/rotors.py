@@ -164,8 +164,9 @@ class historicalrotors:
         II = rotor("II", "-", "Enigma Railway (Rocket)", "NTZPSFBOKMWRCJDIVLAEYUXHGQ", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['E'])
         III = rotor("III", "-", "Enigma Railway (Rocket)", "JVIUBHTCDYAKEQZPOSGXNRMWFL", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['N'])
         UKW = rotor("UKW", "-", "Enigma Railway (Rocket)", "QYHOGNECVPUZTFDJAXWMKISRBL", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
-
-
-
-
-
+    class Enigma_Z:
+        ETW = rotor("ETW", "-", "Enigma Z", "1234567890", "1234567890", "ETW", ['1'])
+        I = rotor("I", "-", "Enigma Z", "6418270359", "1234567890", "NORMAL", ['9'])
+        II = rotor("II", "-", "Enigma Z", "5841097632", "1234567890", "NORMAL", ['9'])
+        III = rotor("III", "-", "Enigma Z", "3581620794", "1234567890", "NORMAL", ['9'])
+        UKW = rotor("UKW", "-", "Enigma Z", "5079183642", "1234567890", "UKW", ['1'])

@@ -14,12 +14,12 @@ def main(args=sys.argv[1:]):
         2,
         1,
         0,
-        8,
-        9
+        3,
+        4
     ]
     STECKBRETT = [
     ]
-    ENIGMA = enigmas.Enigma_T.ENIGMA
+    ENIGMA = enigmas.Enigma_K_Commercial.ENIGMA
     ENIGMA.create_enigma(SETTINGS, WALZEN, STECKBRETT)
     print( ENIGMA.enc_string("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA") )
 

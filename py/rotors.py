@@ -146,6 +146,12 @@ class historicalrotors:
         VII = rotor("VII", "-", "Enigma T (Tirpitz)", "BJVFTXPLNAYOZIKWGDQERUCHSM", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['Y', 'C', 'F', 'K', 'R'])
         VIII = rotor("VIII", "-", "Enigma T (Tirpitz)", "YMTPNZHWKODAJXELUQVGCBISFR", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['X', 'E', 'I', 'M', 'Q'])
         UKW = rotor("UKW", "-", "Enigma T (Tirpitz)", "GEKPBTAUMOCNILJDXZYFHWVQSR", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
+    class Enigma_K_Commercial:
+        ETW = rotor("ETW", "-", "Enigma K (Swiss Commercial)", "QWERTZUIOASDFGHJKPYXCVBNML", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
+        I = rotor("I", "-", "Enigma K (Swiss Commercial)", "LPGSZMHAEOQKVXRFYBUTNICJDW", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['Y'])
+        II = rotor("II", "-", "Enigma K (Swiss Commercial)", "SLVGBTFXJQOHEWIRZYAMKPCNDU", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['E'])
+        III = rotor("III", "-", "Enigma K (Swiss Commercial)", "CJGDPSHKTURAWZXFMYNQOBVLIE", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['N'])
+        UKW = rotor("UKW", "-", "Enigma K (Swiss Commercial)", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
 
 
 

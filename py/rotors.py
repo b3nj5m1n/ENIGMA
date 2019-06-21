@@ -152,6 +152,12 @@ class historicalrotors:
         II = rotor("II", "-", "Enigma K (Swiss Commercial)", "SLVGBTFXJQOHEWIRZYAMKPCNDU", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['E'])
         III = rotor("III", "-", "Enigma K (Swiss Commercial)", "CJGDPSHKTURAWZXFMYNQOBVLIE", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['N'])
         UKW = rotor("UKW", "-", "Enigma K (Swiss Commercial)", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
+    class Enigma_K_Swiss_Air_Force:
+        ETW = rotor("ETW", "-", "Enigma K (Swiss Air Force)", "QWERTZUIOASDFGHJKPYXCVBNML", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
+        I = rotor("I", "-", "Enigma K (Swiss Air Force)", "PEZUOHXSCVFMTBGLRINQJWAYDK", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['Y'])
+        II = rotor("II", "-", "Enigma K (Swiss Air Force)", "ZOUESYDKFWPCIQXHMVBLGNJRAT", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['E'])
+        III = rotor("III", "-", "Enigma K (Swiss Air Force)", "EHRVXGAOBQUSIMZFLYNWKTPDJC", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['N'])
+        UKW = rotor("UKW", "-", "Enigma K (Swiss Air Force)", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
 
 
 

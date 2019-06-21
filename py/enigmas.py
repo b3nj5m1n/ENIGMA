@@ -168,6 +168,15 @@ class enigmas:
         ]
         ENIGMA = ENIGMA(ROTORS, "Enigma K (Swiss Commercial)", 5)
 
+    class Enigma_K_Swiss_Air_Force:
+        ROTORS = [
+            rotors.historicalrotors.Enigma_K_Commercial.I, # 0
+            rotors.historicalrotors.Enigma_K_Commercial.II, # 1
+            rotors.historicalrotors.Enigma_K_Commercial.III, # 2
+            rotors.historicalrotors.Enigma_K_Commercial.ETW, # 3
+            rotors.historicalrotors.Enigma_K_Commercial.UKW, # 4
+        ]
+        ENIGMA = ENIGMA(ROTORS, "Enigma K (Swiss Air Force)", 5)
 
 
 

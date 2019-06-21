@@ -47,3 +47,12 @@ class enigmas:
         ]
         ENIGMA = ENIGMA(ROTORS, "Enigma B", 5)
 
+    class Enigma_D:
+        ROTORS = [
+            rotors.historicalrotors.Enigma_D.I, # 0
+            rotors.historicalrotors.Enigma_D.II, # 1
+            rotors.historicalrotors.Enigma_D.III, # 2
+            rotors.historicalrotors.Enigma_D.ETW, # 3
+            rotors.historicalrotors.Enigma_D.UKW, # 4
+        ]
+        ENIGMA = ENIGMA(ROTORS, "Enigma D", 5)

@@ -75,3 +75,10 @@ class historicalrotors:
         II = rotor("II", "-", "Enigma B", "CHNSYÖADMOTRZXBÄIGÅEKQUPFLVJ", alphabet, "NORMAL", ['Ä'])
         III = rotor("III", "-", "Enigma B", "ÅVQIAÄXRJBÖZSPCFYUNTHDOMEKGL", alphabet, "NORMAL", ['Ä'])
         UKW = rotor("UKW", "-", "Enigma B", "LDGBÄNCPSKJAVFZHXUIÅRMQÖOTEY", alphabet, "UKW", ['A'])
+    class Enigma_D:
+        ETW = rotor("ETW", "-", "Enigma D", "QWERTZUIOASDFGHJKPYXCVBNML", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
+        I = rotor("I", "-", "Enigma D", "LPGSZMHAEOQKVXRFYBUTNICJDW", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['Y'])
+        II = rotor("II", "-", "Enigma D", "SLVGBTFXJQOHEWIRZYAMKPCNDU", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['E'])
+        III = rotor("III", "-", "Enigma D", "CJGDPSHKTURAWZXFMYNQOBVLIE", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['N'])
+        UKW = rotor("UKW", "-", "Enigma D", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
+

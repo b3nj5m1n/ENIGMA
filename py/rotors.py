@@ -158,6 +158,12 @@ class historicalrotors:
         II = rotor("II", "-", "Enigma K (Swiss Air Force)", "ZOUESYDKFWPCIQXHMVBLGNJRAT", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['E'])
         III = rotor("III", "-", "Enigma K (Swiss Air Force)", "EHRVXGAOBQUSIMZFLYNWKTPDJC", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['N'])
         UKW = rotor("UKW", "-", "Enigma K (Swiss Air Force)", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
+    class Enigma_Railyway:
+        ETW = rotor("ETW", "-", "Enigma Railway (Rocket)", "QWERTZUIOASDFGHJKPYXCVBNML", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
+        I = rotor("I", "-", "Enigma Railway (Rocket)", "JGDQOXUSCAMIFRVTPNEWKBLZYH", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['Y'])
+        II = rotor("II", "-", "Enigma Railway (Rocket)", "NTZPSFBOKMWRCJDIVLAEYUXHGQ", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['E'])
+        III = rotor("III", "-", "Enigma Railway (Rocket)", "JVIUBHTCDYAKEQZPOSGXNRMWFL", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['N'])
+        UKW = rotor("UKW", "-", "Enigma Railway (Rocket)", "QYHOGNECVPUZTFDJAXWMKISRBL", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
 
 
 

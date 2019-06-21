@@ -170,14 +170,24 @@ class enigmas:
 
     class Enigma_K_Swiss_Air_Force:
         ROTORS = [
-            rotors.historicalrotors.Enigma_K_Commercial.I, # 0
-            rotors.historicalrotors.Enigma_K_Commercial.II, # 1
-            rotors.historicalrotors.Enigma_K_Commercial.III, # 2
-            rotors.historicalrotors.Enigma_K_Commercial.ETW, # 3
-            rotors.historicalrotors.Enigma_K_Commercial.UKW, # 4
+            rotors.historicalrotors.Enigma_K_Swiss_Air_Force.I, # 0
+            rotors.historicalrotors.Enigma_K_Swiss_Air_Force.II, # 1
+            rotors.historicalrotors.Enigma_K_Swiss_Air_Force.III, # 2
+            rotors.historicalrotors.Enigma_K_Swiss_Air_Force.ETW, # 3
+            rotors.historicalrotors.Enigma_K_Swiss_Air_Force.UKW, # 4
         ]
         ENIGMA = ENIGMA(ROTORS, "Enigma K (Swiss Air Force)", 5)
 
+    class Enigma_Railyway:
+        ROTORS = [
+            rotors.historicalrotors.Enigma_Railyway.I, # 0
+            rotors.historicalrotors.Enigma_Railyway.II, # 1
+            rotors.historicalrotors.Enigma_Railyway.III, # 2
+            rotors.historicalrotors.Enigma_Railyway.ETW, # 3
+            rotors.historicalrotors.Enigma_Railyway.UKW, # 4
+        ]
+        ENIGMA = ENIGMA(ROTORS, "Enigma Railway (Rocket)", 5)
 
+    
 
 

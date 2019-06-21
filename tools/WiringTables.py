@@ -1,12 +1,4 @@
 
-
-
-rotor("ETW", "-", "Enigma Railway (Rocket)", "QWERTZUIOASDFGHJKPYXCVBNML", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
-rotor("I", "-", "Enigma Railway (Rocket)", "JGDQOXUSCAMIFRVTPNEWKBLZYH", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['Y'])
-rotor("II", "-", "Enigma Railway (Rocket)", "NTZPSFBOKMWRCJDIVLAEYUXHGQ", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['E'])
-rotor("III", "-", "Enigma Railway (Rocket)", "JVIUBHTCDYAKEQZPOSGXNRMWFL", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['N'])
-rotor("UKW", "-", "Enigma Railway (Rocket)", "QYHOGNECVPUZTFDJAXWMKISRBL", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
-
 rotor("ETW", "-", "Enigma Z", "1234567890", "1234567890", "ETW", ['1'])
 rotor("I", "-", "Enigma Z", "6418270359", "1234567890", "NORMAL", ['9'])
 rotor("II", "-", "Enigma Z", "5841097632", "1234567890", "NORMAL", ['9'])

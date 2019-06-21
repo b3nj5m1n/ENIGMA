@@ -19,7 +19,7 @@ def main(args=sys.argv[1:]):
     ]
     STECKBRETT = [
     ]
-    ENIGMA = enigmas.Enigma_K_Swiss_Air_Force.ENIGMA
+    ENIGMA = enigmas.Enigma_Railyway.ENIGMA
     ENIGMA.create_enigma(SETTINGS, WALZEN, STECKBRETT)
     print( ENIGMA.enc_string("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA") )
 

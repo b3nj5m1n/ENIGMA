@@ -111,6 +111,12 @@ class historicalrotors:
         II = rotor("II", "-", "Zählwerk Enigma A28", "SLVGBTFXJQOHEWIRZYAMKPCNDU", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'T', 'V', 'Y', 'Z', 'A', 'C', 'D', 'F', 'G', 'H', 'K', 'M', 'N', 'Q'])
         III = rotor("III", "-", "Zählwerk Enigma A28", "CJGDPSHKTURAWZXFMYNQOBVLIE", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['U', 'W', 'X', 'A', 'E', 'F', 'H', 'K', 'M', 'N', 'R'])
         UKW = rotor("UKW", "-", "Zählwerk Enigma A28", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
+    class Enigma_G:
+        ETW = rotor("ETW", "-", "Zählwerk Enigma (Enigma G)", "QWERTZUIOASDFGHJKPYXCVBNML", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
+        I = rotor("I", "-", "Zählwerk Enigma (Enigma G)", "LPGSZMHAEOQKVXRFYBUTNICJDW", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'U', 'V', 'W', 'Z', 'A', 'B', 'C', 'E', 'F', 'G', 'I', 'K', 'L', 'O', 'P', 'Q'])
+        II = rotor("II", "-", "Zählwerk Enigma (Enigma G)", "SLVGBTFXJQOHEWIRZYAMKPCNDU", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'T', 'V', 'Y', 'Z', 'A', 'C', 'D', 'F', 'G', 'H', 'K', 'M', 'N', 'Q'])
+        III = rotor("III", "-", "Zählwerk Enigma (Enigma G)", "CJGDPSHKTURAWZXFMYNQOBVLIE", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['U', 'W', 'X', 'A', 'E', 'F', 'H', 'K', 'M', 'N', 'R'])
+        UKW = rotor("UKW", "-", "Zählwerk Enigma (Enigma G)", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
 
 
 

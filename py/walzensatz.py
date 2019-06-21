@@ -49,7 +49,7 @@ class walzensatz(object):
         # We need to rotate the first Walze every time
         self.walzen[0].rotate()
         # Loop over all remaining Walzen
-        for i in range(0, len(self.walzen)):
+        for i in range(1, len(self.walzen)):
             # If the previous Walze is in notch position
             if rotations[i - 1] in self.walzen[i - 1].notches:
                 # Rotate the current Walze

@@ -135,6 +135,17 @@ class historicalrotors:
         II = rotor("II", "-", "Zählwerk Enigma (Enigma GA111 | Hungarian Army Enigma)", "TFJQAZWMHLCUIXRDYGOEVBNSKP", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'T', 'V', 'Y', 'Z', 'A', 'C', 'D', 'F', 'G', 'H', 'K', 'M', 'N', 'Q'])
         III = rotor("V", "-", "Zählwerk Enigma (Enigma GA111 | Hungarian Army Enigma)", "QTPIXWVDFRMUSLJOHCANEZKYBG", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['S', 'W', 'Z', 'F', 'H', 'M', 'Q'])
         UKW = rotor("UKW", "-", "Zählwerk Enigma (Enigma GA111 | Hungarian Army Enigma)", "IMETCGFRAYSQBZXWLHKDVUPOJN", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
+    class Enigma_T:
+        ETW = rotor("ETW", "-", "Enigma T (Tirpitz)", "KZROUQHYAIGBLWVSTDXFPNMCJE", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
+        I = rotor("I", "-", "Enigma T (Tirpitz)", "KPTYUELOCVGRFQDANJMBSWHZXI", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['W', 'Z', 'E', 'K', 'Q'])
+        II = rotor("II", "-", "Enigma T (Tirpitz)", "UPHZLWEQMTDJXCAKSOIGVBYFNR", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['W', 'Z', 'F', 'L', 'R'])
+        III = rotor("III", "-", "Enigma T (Tirpitz)", "QUDLYRFEKONVZAXWHMGPJBSICT", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['W', 'Z', 'E', 'K', 'Q'])
+        IV = rotor("IV", "-", "Enigma T (Tirpitz)", "CIWTBKXNRESPFLYDAGVHQUOJZM", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['W', 'Z', 'F', 'L', 'R'])
+        V = rotor("V", "-", "Enigma T (Tirpitz)", "UAXGISNJBVERDYLFZWTPCKOHMQ", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['Y', 'C', 'F', 'K', 'R'])
+        VI = rotor("VI", "-", "Enigma T (Tirpitz)", "XFUZGALVHCNYSEWQTDMRBKPIOJ", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['X', 'E', 'I', 'M', 'Q'])
+        VII = rotor("VII", "-", "Enigma T (Tirpitz)", "BJVFTXPLNAYOZIKWGDQERUCHSM", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['Y', 'C', 'F', 'K', 'R'])
+        VIII = rotor("VIII", "-", "Enigma T (Tirpitz)", "YMTPNZHWKODAJXELUQVGCBISFR", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['X', 'E', 'I', 'M', 'Q'])
+        UKW = rotor("UKW", "-", "Enigma T (Tirpitz)", "GEKPBTAUMOCNILJDXZYFHWVQSR", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
 
 
 

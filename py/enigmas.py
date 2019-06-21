@@ -143,3 +143,24 @@ class enigmas:
         ]
         ENIGMA = ENIGMA(ROTORS, "Zählwerk Enigma G A111", 5)
 
+    class Enigma_T:
+        ROTORS = [
+            rotors.historicalrotors.Enigma_T.I, # 0
+            rotors.historicalrotors.Enigma_T.II, # 1
+            rotors.historicalrotors.Enigma_T.III, # 2
+            rotors.historicalrotors.Enigma_T.IV, # 3
+            rotors.historicalrotors.Enigma_T.V, # 4
+            rotors.historicalrotors.Enigma_T.VI, # 5
+            rotors.historicalrotors.Enigma_T.VII, # 6
+            rotors.historicalrotors.Enigma_T.VIII, # 7
+            rotors.historicalrotors.Enigma_T.ETW, # 8
+            rotors.historicalrotors.Enigma_T.UKW # 9
+        ]
+        ENIGMA = ENIGMA(ROTORS, "Enigma T (Tirpitz)", 5)
+
+
+
+
+
+
+

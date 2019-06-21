@@ -68,3 +68,10 @@ class historicalrotors:
         Gamma = rotor("Gamma", "1.7.1943", "M4", "FSOKANUERHMBTIYCWLQPZXVGJD", alphabet, "GRW", ["A"])
         UKW_Bruno = rotor("UKW Bruno", "1.2.1942", "M4", "ENKQAUYWJICOPBLMDXZVFTHRGS", alphabet, "UKW", ["A"])
         UKW_Cäsar = rotor("UKW Cäsar", "1.7.1943", "M4", "RDOBJNTKVEHMLFCWZAXGYIPSUQ", alphabet, "UKW", ["A"])
+    class Enigma_B:
+        alphabet = "ABCDEFGHIJKLMNOPQRSTUVXYZÅÄÖ"
+        ETW = rotor("ETW", "-", "Enigma B", "ABCDEFGHIJKLMNOPQRSTUVXYZÅÄÖ", alphabet, "ETW", ['A'])
+        I = rotor("I", "-", "Enigma B", "PSBGÖXQJDHOÄUCFRTEZVÅINLYMKA", alphabet, "NORMAL", ['Ä'])
+        II = rotor("II", "-", "Enigma B", "CHNSYÖADMOTRZXBÄIGÅEKQUPFLVJ", alphabet, "NORMAL", ['Ä'])
+        III = rotor("III", "-", "Enigma B", "ÅVQIAÄXRJBÖZSPCFYUNTHDOMEKGL", alphabet, "NORMAL", ['Ä'])
+        UKW = rotor("UKW", "-", "Enigma B", "LDGBÄNCPSKJAVFZHXUIÅRMQÖOTEY", alphabet, "UKW", ['A'])

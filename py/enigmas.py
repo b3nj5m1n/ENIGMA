@@ -36,3 +36,14 @@ class enigmas:
             rotors.historicalrotors.M4.UKW_Cäsar # 12
         ]
         ENIGMA = ENIGMA(ROTORS, "M4", 5)
+
+    class Enigma_B:
+        ROTORS = [
+            rotors.historicalrotors.Enigma_B.I, # 0
+            rotors.historicalrotors.Enigma_B.II, # 1
+            rotors.historicalrotors.Enigma_B.III, # 2
+            rotors.historicalrotors.Enigma_B.ETW, # 3
+            rotors.historicalrotors.Enigma_B.UKW, # 4
+        ]
+        ENIGMA = ENIGMA(ROTORS, "Enigma B", 5)
+

@@ -14,14 +14,14 @@ def main(args=sys.argv[1:]):
         2,
         1,
         0,
-        8,
-        9
+        3,
+        4
     ]
     STECKBRETT = [
     ]
-    ENIGMA = enigmas.M3.ENIGMA
+    ENIGMA = enigmas.Enigma_B.ENIGMA
     ENIGMA.create_enigma(SETTINGS, WALZEN, STECKBRETT)
-    print( ENIGMA.enc_string("AAAAAAAAAA") )
+    print( ENIGMA.enc_string("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA") )
 
 
 # Call the main function at the end of the file

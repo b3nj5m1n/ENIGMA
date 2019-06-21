@@ -15,7 +15,7 @@ def main(args=sys.argv[1:]):
         1,
         0,
         5,
-        7
+        6
     ]
     STECKBRETT = [
     ]

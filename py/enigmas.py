@@ -80,3 +80,15 @@ class enigmas:
             rotors.historicalrotors.Enigma_I.UKW_C # 8
         ]
         ENIGMA = ENIGMA(ROTORS, "Enigma I", 5)
+
+    class Norway_Enigma:
+        ROTORS = [
+            rotors.historicalrotors.Norway_Enigma.I, # 0
+            rotors.historicalrotors.Norway_Enigma.II, # 1
+            rotors.historicalrotors.Norway_Enigma.III, # 2
+            rotors.historicalrotors.Norway_Enigma.IV, # 3
+            rotors.historicalrotors.Norway_Enigma.V, # 4
+            rotors.historicalrotors.Norway_Enigma.ETW, # 5
+            rotors.historicalrotors.Norway_Enigma.UKW, # 6
+        ]
+        ENIGMA = ENIGMA(ROTORS, "Norway Enigma", 5)

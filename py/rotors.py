@@ -97,4 +97,16 @@ class historicalrotors:
         UKW_A  = rotor("UKW_A", "-", "Enigma I", "EJMZALYXVBWFCRQUONTSPIKHGD", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
         UKW_B = rotor("UKW_B", "-", "Enigma I", "YRUHQSLDPXNGOKMIEBFZCWVJAT", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
         UKW_C = rotor("UKW_C", "-", "Enigma I", "FVPJIAOYEDRZXWGCTKUQSBNMHL", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
+    class Norway_Enigma:
+        ETW = rotor("ETW", "-", "Norway Enigma (Enigma I variant)", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ETW", ['A'])
+        I = rotor("I", "-", "Norway Enigma (Enigma I variant)", "WTOKASUYVRBXJHQCPZEFMDINLG", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['Q'])
+        II = rotor("II", "-", "Norway Enigma (Enigma I variant)", "GJLPUBSWEMCTQVHXAOFZDRKYNI", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['E'])
+        III = rotor("III", "-", "Norway Enigma (Enigma I variant)", "JWFMHNBPUSDYTIXVZGRQLAOEKC", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['V'])
+        IV = rotor("IV", "-", "Norway Enigma (Enigma I variant)", "ESOVPZJAYQUIRHXLNFTGKDCMWB", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['J'])
+        V = rotor("V", "-", "Norway Enigma (Enigma I variant)", "HEJXQOTZBVFDASCILWPGYNMURK", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "NORMAL", ['Z'])
+        UKW  = rotor("UKW", "-", "Norway Enigma (Enigma I variant)", "MOWJYPUXNDSRAIBFVLKZGQCHET", "ABCDEFGHIJKLMNOPQRSTUVWXYZ", "UKW", ['A'])
+
+
+
+
 

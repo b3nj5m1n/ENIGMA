@@ -2,7 +2,7 @@ import random
 import time
 
 # Insert alphabet for which you want to generate the wiring tables
-alp = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,?!: '
+alp = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÖÄÜabcdefghijklmnopqrstuvwxyzöäü0123456789.,:;-_ß!§$&/()=? +*~<>^|'
 # Initalize empty array
 alphabet = []
 # Add numbers for every char in alphabet (A,B,C = 0,1,2)

@@ -35,6 +35,31 @@ class rotors:
         UKW_A = rotor("UKW A", "-", "-", wirings[3], alphabet, "UKW", ["A"])
         UKW_B = rotor("UKW B", "-", "-", wirings[4], alphabet, "UKW", ["A"])
         UKW_C = rotor("UKW C", "-", "-", wirings[5], alphabet, "UKW", ["A"])
+    class Modernized:
+        alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÖÄÜabcdefghijklmnopqrstuvwxyzöäü0123456789.,:;-_ß!§$&/()=? +*~<>^|'
+        wirings = ['N,ä§:Fs0aqEZ(üöxbe&Ä<S8g+K95L^YÖ_32vzc?I$MGdJotWTi.7h >=y)BQmßC6AjP1/lXuÜrV4O|wU~RD*-k;!pnfH',
+'Äni_r4yuÜQöY/mk!;^üXß&LpZ>(ScxD:eFB-vfal)KqC.2Iw?ohP ,<O8R1tbEA3*UVGd$=0j+9§g5säzNÖ|~76WMJTH',
+'$I(L*4|fP1§AFüßJjD9lnB6Qm;cr<CÄg!XU7RT2Mi3=-kKuqNp0ZE~:bO?ÜHSGw/_&)Öx>.Vä+Yoaevsdöz,^ ht5W8y',
+'AQÖJCßzx6Fr^v§q<(.ÄG;ajgY0d2?n>9RT)8Oü*öl+bUÜV3W$:äfHK/XIpDNsM-_ZLthy!=e,mw4oi5uc7~ |&PEk1SB',
+'Ö8_~Qs^+(m<)ca$i45fVH9h;Kne?37.|LIrvpxoüZYC,JyFRßö1uOwlGT*:Uj§gÄD btWASzÜ2B!E/&=6äMqd0>PXNk-',
+'?&4Ö5M=mxTZhbVDoYiB9>Cvq$(Akä8waJX0eÜ2H!E3üdyIjS*O~N1lLWöK^tÄ,ß;ru:/.6Q-+_RFz|p<PGf§g)cUs 7n',
+'$p§x=yePrgfä7AIM9i.l!NHßLUJzÜ;KDV:/üQZjÖdkbY|~-2hRSF<)5Xq*Gtm6,oEaövCBnÄ_^&0O8>3T s1c4w?+u(W',
+'82QY X:nUI3|5~&cAL+JZÜ<)41dvb7eßrs-9/GN_ByqPz$oV0FfmhäÖi^.=Ä(ET;ujHk!,MWw?ö6Dül>ORpK*tCS§axg',
+'Pp;IJ3WVDE7N&LßA)zlyüHGc9nÄÖöm-X§8=+<5r6SaZxBäj,^~?0oTRÜqUw/*F:ikKeY$s4Cb(O d.M1_Qfv!g2uh|t>',
+'!H_ö;4^BÖpYuxÄSc23O15ßa6KeINsWgP?Z|bih-y):+*J(vÜwLrtMkäDz0üTQRFUX,&>§7mEjCVA.<8~ql d=no/$9Gf',
+'GnUkWVA27~Sw§q+9ebK^CFE| 6)ÜÄ/Ry1Qs?*,rD(üB<:Njf>=ßLzcx_8m-dH!;$ZIäP&ip40öv3M5.alÖugYOhJotTX']
+        ETW = rotor("ETW", "-", "-", alphabet, alphabet, "ETW", ["A"])
+        I = rotor("I", "-", "-", wirings[0], alphabet, "NORMAL", ["Q"])
+        II = rotor("II", "-", "-", wirings[1], alphabet, "NORMAL", ["E"])
+        III = rotor("III", "-", "-", wirings[2], alphabet, "NORMAL", ["V"])
+        IV = rotor("IV", "-", "-", wirings[3], alphabet, "NORMAL", ["V"])
+        V = rotor("V", "-", "-", wirings[4], alphabet, "NORMAL", ["V"])
+        VI = rotor("VI", "-", "-", wirings[5], alphabet, "NORMAL", ["V"])
+        VII = rotor("VII", "-", "-", wirings[6], alphabet, "NORMAL", ["V"])
+        VIII = rotor("VIII", "-", "-", wirings[7], alphabet, "NORMAL", ["V"])
+        UKW_A = rotor("UKW A", "-", "-", wirings[8], alphabet, "UKW", ["A"])
+        UKW_B = rotor("UKW B", "-", "-", wirings[9], alphabet, "UKW", ["A"])
+        UKW_C = rotor("UKW C", "-", "-", wirings[10], alphabet, "UKW", ["A"])
 
 
 class historicalrotors:

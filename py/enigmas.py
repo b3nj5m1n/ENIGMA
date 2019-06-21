@@ -198,6 +198,21 @@ class enigmas:
         ]
         ENIGMA = ENIGMA(ROTORS, "Enigma Z", 5)
 
-    
+    class Modernized:
+        ROTORS = [
+            rotors.rotors.Modernized.I, # 0
+            rotors.rotors.Modernized.II, # 1
+            rotors.rotors.Modernized.III, # 2
+            rotors.rotors.Modernized.VI, # 3
+            rotors.rotors.Modernized.V, # 4
+            rotors.rotors.Modernized.VI, # 5
+            rotors.rotors.Modernized.VII, # 6
+            rotors.rotors.Modernized.VIII, # 7
+            rotors.rotors.Modernized.ETW, # 8
+            rotors.rotors.Modernized.UKW_A, # 9
+            rotors.rotors.Modernized.UKW_B, # 10
+            rotors.rotors.Modernized.UKW_C, # 11
+        ]
+        ENIGMA = ENIGMA(ROTORS, "Modernized Enigma", 0)
 
 

@@ -105,6 +105,8 @@ class walzensatz(object):
         # Put the letter through the ETW and return the corresponding letter
         alphabet = self.ETW.rotor.alphabet
         return alphabet[self.ETW.enc(x, True)]
+    def __str__(self):
+        return "".join([str(walze) for walze in self.walzen])
     def save(self, output, ret=False):
         '''Saves object instance to file or returns is'''
         if not ret:

@@ -71,4 +71,5 @@ class walze(object):
                     letter = pair[1]
                     # Step 3: Return the letter - the current rotation; Thus shifting down the alphabet
                     return (letter + (-self.rotation)) % len(self.rotor.alphabet)
-    
+    def __str__(self):
+        return self.rotor.alphabet[self.rotation]

@@ -6,9 +6,9 @@ int steckerPairsCount;
 int **steckerPairs;
 
 /* 
-Takes an array of intergers as input and parses them into stecker pairs
-2 integers will get grouped together
-*/
+   Takes an array of intergers as input and parses them into stecker pairs
+   2 integers will get grouped together
+   */
 int setStecker(int *pairsValues, int individualCount)
 {
     // Make sure there is an even number of integers
@@ -17,10 +17,8 @@ int setStecker(int *pairsValues, int individualCount)
         printf("Cannot initialize stecker pairs with uneven number of integers.");
         exit(1);
     }
-    // How many pairs there will be in total
-    steckerPairsCount = individualCount / 2;
     // Allocate memory for steckerPairs variable
-    steckerPairs = malloc(steckerPairsCount * sizeof( int* ));
+    steckerPairs = malloc(individualCount / 2 * sizeof( int* ));
     // Loop over values, 2 at a time
     for (int i = 0; i < individualCount; i+=2)
     {
@@ -29,6 +27,20 @@ int setStecker(int *pairsValues, int individualCount)
         steckerPairs[index] = malloc(sizeof( int )*2);
         steckerPairs[index][0] = pairsValues[i];
         steckerPairs[index][1] = pairsValues[i+1];
+        // Test if we just inserted a duplicate
+        for (int j = 0; j < steckerPairsCount; j++)
+        {
+            if (steckerPairs[j][0] == steckerPairs[index][0]
+                    || steckerPairs[j][1] == steckerPairs[index][0] 
+                    || steckerPairs[j][0] == steckerPairs[index][1] 
+                    || steckerPairs[j][1] == steckerPairs[index][1]) {
+                printf("Duplicate in stecker pairs.");
+                exit(2);
+
+            }
+        }
+        // Increase pair count
+        steckerPairsCount += 1;
         // Print the pair
         printf("%d:%d\n", steckerPairs[index][0], steckerPairs[index][1]);
     }
@@ -36,8 +48,8 @@ int setStecker(int *pairsValues, int individualCount)
 }
 
 /*
-Takes a single integer as intput and passes it through the steckbrett
-*/
+   Takes a single integer as intput and passes it through the steckbrett
+   */
 int steckerEncode(int input)
 {
     // Loop over all pairs and try to find a match
@@ -57,16 +69,8 @@ int steckerEncode(int input)
 }
 
 /*
-Validate the current stecker pairs, make sure there are duplicates
-*/
-int validateStecker()
-{
-
-}
-
-/*
-Free all resources used by the steckbrett
-*/
+   Free all resources used by the steckbrett
+   */
 int removeStecker()
 {
     for (int i = 0; i < steckerPairsCount; i++)
@@ -77,7 +81,7 @@ int removeStecker()
 }
 
 int main() {
-    int test[6] = { 2, 5, 1, 4, 5, 1 };
+    int test[6] = { 2, 15, 1, 4, 5, 12 };
     setStecker(test, 6);
 
     for (int i = 0; i < 10; i++)

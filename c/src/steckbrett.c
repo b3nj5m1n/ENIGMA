@@ -80,16 +80,16 @@ int removeStecker()
     free(steckerPairs);
 }
 
-int main() {
-    int test[6] = { 2, 15, 1, 4, 5, 12 };
-    setStecker(test, 6);
+/* int main() { */
+/*     int test[6] = { 2, 15, 1, 4, 5, 12 }; */
+/*     setStecker(test, 6); */
 
-    for (int i = 0; i < 10; i++)
-    {
-        printf("Testing %d, result: %d\n", i, steckerEncode(i));
-    }
+/*     for (int i = 0; i < 10; i++) */
+/*     { */
+/*         printf("Testing %d, result: %d\n", i, steckerEncode(i)); */
+/*     } */
 
-    removeStecker();
+/*     removeStecker(); */
 
-    return 0;
-}
+/*     return 0; */
+/* } */

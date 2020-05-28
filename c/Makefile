@@ -16,11 +16,14 @@ OUT = bin/enigma
 
 all: $(OUT)
 
-$(OUT): steckbrett.o
-    $(CC) $(ODIR)/steckbrett.o -o $(OUT)
+$(OUT): steckbrett.o rotor.o
+    $(CC) $(ODIR)/steckbrett.o $(ODIR)/rotor.o -o $(OUT)
 
 steckbrett.o: src/steckbrett.c
     $(CC) $(CFLAGS) $(SDIR)/steckbrett.c -o $(ODIR)/steckbrett.o
+
+rotor.o: src/rotor.c
+    $(CC) $(CFLAGS) $(SDIR)/rotor.c -o $(ODIR)/rotor.o
 
 clean:
     rm -rf $(ODIR)/*.o

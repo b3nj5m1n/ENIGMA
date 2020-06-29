@@ -2,7 +2,7 @@
 
 ## Python
 
-#### A fully featured python implementation of the Enigma machine in python, you can have any number of rotors, change the alphabet, or use historical models (Originally written in June of 2019)
+#### A fully featured implementation of the Enigma machine in python, you can have any number of rotors, change the alphabet, or use historical models (Originally written in June of 2019)
 
 #### Structure
 

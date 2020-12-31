@@ -7,7 +7,7 @@ We'll be using the historical M3 Enigma, which doesn't support punctuation, spac
 
 ** Preparing the input
 Let's make our string fit those requirements:
-#+name: prepare_input
+#+name: first_example_prepare_input
 #+begin_src python :session example :exports both :results output :wrap example
 # Import regular expressions
 import re
@@ -19,14 +19,14 @@ s = re.sub("\W", "", s).upper()
 print(s)
 #+end_src
 
-#+RESULTS: prepare_input
+#+RESULTS: first_example_prepare_input
 #+begin_example
-I LOVE TO TALK ABOUT NOTHING IT S THE ONLY THING I KNOW ANYTHING ABOUT
+ILOVETOTALKABOUTNOTHINGITSTHEONLYTHINGIKNOWANYTHINGABOUT
 #+end_example
 
 ** Preparing the Enigma
 Let's take care of the only import we have to worry about
-#+name: import
+#+name: first_example_import
 #+begin_src python :session example :exports both :results none
 from enigmas import enigmas
 #+end_src
@@ -37,42 +37,161 @@ The Walzen to use are specified using an array. Use the =enigmas.py= file for re
 Let's say we want to use the rotors I, II, III, the standard ETW and UKW B.
 =enigmas.py= Will tell us that I is represented with a 0, II with a 1, III with a 2, the default ETW is assinged an 8 and UKW B is a 9.
 Let's create the array. Notice how the order of the rotors is reversed, the UKW is the last element in the array and the ETW the second to last.
-#+name: prepare_walzen
+#+name: first_example_prepare_walzen
 #+begin_src python :session example :exports both :results none
 walzen = [2, 1, 0, 8, 9]
 #+end_src
 *** Ring- & Grundstellung
-These are also defined in an array, this array consists of tuples of chars, the first element is the Grundstellung, the second one is the Ringstellung. Let's leave them all at the default =A= for now.
+These are also defined in an array, this array consists of tuples of chars, the first element is the Ringstellung, the second one is the Grundstellung. Let's leave them all at the default =A= for now.
 The first element in this array corresponds to the first walze we defined, so I., the second one to the second walze (II), ..., The last one corresponds to the UKW.
-#+name: prepare_settings
+#+name: first_example_prepare_settings
 #+begin_src python :session example :exports both :results none
 settings = [["A", "A"], ["A", "A"], ["A", "A"], ["A", "A"], ["A", "A"]]
 #+end_src
 *** Steckbrett
 The steckbrett is also defined using an array. Each element in this array should be a string of two chars you want to pair up. Let's map =O= to =F=, and =A= to =L=.
-#+name: prepare_steckbrett
+#+name: first_example_prepare_steckbrett
 #+begin_src python :session example :exports both :results none
 steckbrett = [ "OF", "AL" ]
 #+end_src
 *** Engima Model
 We'll also have to specify the Enigma model we're using so the program knows the correct wiring tables for those models. As I said at the beginning, we're using the M3 here.
-#+name: prepare_enigma
+#+name: first_example_prepare_enigma
 #+begin_src python :session example :exports both :results none
 enigma = enigmas.M3.ENIGMA
 #+end_src
 *** Initializing
 You have to call this function on your Enigma object for everything to work correctly.
-#+name: init_enigma
+#+name: first_example_init_enigma
 #+begin_src python :session example :exports both :results none
 enigma.create_enigma(settings, walzen, steckbrett)
 #+end_src
 ** Encrypting a Message
 We can use the =enc_string= function to encrypt a string.
-#+name: encrypt
+#+name: first_example_encrypt
 #+begin_src python :session example :exports both :results none
 encrypted_string = enigma.enc_string(s)
 #+end_src
 Finally, let's output the encrypted string:
+#+name: first_example_output
 #+begin_src python :session example :exports both :results output :wrap example
 print(encrypted_string)
 #+end_src
+
+#+RESULTS: first_example_output
+#+begin_example
+HDUYR RDRLT LRLDT WMJGQ GVYUK OGLXV OGLGQ RJXKM OFDFK DLLGY NSFYS V
+#+end_example
+
+* Decrypting a real, historical message
+There is a message sent by Grand Admiral Dönitz, which he sent on the first of May 1945 (06:55), in which he announces his appointment as Hitler's successor.
+When this message was sent, Hitler had already killed himself (A day earlier), but his death was not yet officially announced.
+
+Note that we will be /decrypting/ this message, not cracking it. That means we already have all the settings that were used. The message was cracked by Michael Hörenberg.
+Before we start, let's take a look at the settings that were used:
+
+The model of the Enigma was the M4 (Used by the navy), the reflector used was reflector C.
+| Rotor Used    | Greek Wheel β | V | VI | VII |
+| Grundstellung | N             | A | E  | M   |
+| Ringstellung  | E             | P | E  | L   |
+The plug-board looked like this:
+| A | B | C | D | H | J | L | P | S | V |
+| E | F | M | Q | U | N | X | R | Z | W |
+
+First, let's set up an Enigma with those settings:
+#+begin_src python :session dönitz :exports both :results none
+from enigmas import enigmas
+
+walzen = [7, 5, 4, 8, 10, 12]
+settings = [["L", "M"], ["E", "E"], ["P", "A"], ["E", "N"], ["A", "A"], ["A", "A"]]
+steckbrett = ["AE", "BF", "CM", "DQ", "HU", "JN", "LX", "PR", "SZ", "VW"]
+enigma = enigmas.M4.ENIGMA
+enigma.create_enigma(settings, walzen, steckbrett)
+#+end_src
+Let's talk about the anatomy of a message sent with the Enigma for a second. The first 8 letters, or the first 2 4-letter groups are the /message indicator/. The same 2 groups are sent at the end of the message again, this is to ensure good reception. The /Verfahrenkenngruppe/ is also derived from this. Don't worry too much about what that actually is, just now that in our case, it's =QEOB=. You can find more info [[https://enigma.hoerenberg.com/index.php?cat=The%20U534%20messages&page=The%20Kenngruppen%20System][here]].
+
+We now have to enter the Verfahrenkenngruppe to get the message key.
+#+begin_src python :session dönitz :exports both :results output :wrap example
+message_key = enigma.enc_string("QEOB")
+print(message_key)
+#+end_src
+
+#+RESULTS:
+#+begin_example
+CDSZ
+#+end_example
+We now have to use this message key as our new Grundstellung. The easiest way to do that with with the current codebase is to just create a new Enigma.
+#+begin_src python :session dönitz :exports both :results none
+enigma.delete_enigma()
+settings = [["L", message_key[3]], ["E", message_key[2]], ["P", message_key[1]], ["E", message_key[0]], ["A", "A"], ["A", "A"]]
+enigma.create_enigma(settings, walzen, steckbrett)
+#+end_src
+Now we can actually decrypt the message. Here is the full thing, in encrypted form:
+#+begin_example
+( DUHF TETO ) LANO TCTO UARB BFPM HPHG CZXT DYGA HGUF XGEW KBLK GJWL QXXT GPJJ AVTO CKZF SLPP QIHZ FXOE BWII EKFZ LCLO AQJU LJOY HSSM BBGW HZAN VOII PYRB RTDJ QDJJ OQKC XWDN BBTY VXLY TAPG VEAT XSON PNYN QFUD BBHH VWEP YEYD OHNL XKZD NWRH DUWU JUMW WVII WZXI VIUQ DRHY MNCY EFUA PNHO TKHK GDNP SAKN UAGH JZSM JBMH VTRE QEDG XHLZ WIFU SKDQ VELN MIMI THBH DBWV HDFY HJOQ IHOR TDJD BWXE MEAY XGYQ XOHF DMYU XXNO JAZR SGHP LWML RECW WUTL RTTV LBHY OORG LGOW UXNX HMHY FAAC QEKT HSJW ( DUHF TETO )
+#+end_example
+Notice how the first 2 4-letter groups and the last 2 are the same. This is what was used to derive the Verfahrenkenngruppe, and these are both not actually part of the message.
+
+So let's finally decrypt the message:
+#+begin_src python :session dönitz :exports both :results output :wrap example
+encrypted_message = "LANO TCTO UARB BFPM HPHG CZXT DYGA HGUF XGEW KBLK GJWL QXXT GPJJ AVTO CKZF SLPP QIHZ FXOE BWII EKFZ LCLO AQJU LJOY HSSM BBGW HZAN VOII PYRB RTDJ QDJJ OQKC XWDN BBTY VXLY TAPG VEAT XSON PNYN QFUD BBHH VWEP YEYD OHNL XKZD NWRH DUWU JUMW WVII WZXI VIUQ DRHY MNCY EFUA PNHO TKHK GDNP SAKN UAGH JZSM JBMH VTRE QEDG XHLZ WIFU SKDQ VELN MIMI THBH DBWV HDFY HJOQ IHOR TDJD BWXE MEAY XGYQ XOHF DMYU XXNO JAZR SGHP LWML RECW WUTL RTTV LBHY OORG LGOW UXNX HMHY FAAC QEKT HSJW".replace(" ", "")
+decrypted_message = enigma.enc_string(encrypted_message)
+print(decrypted_message)
+#+end_src
+
+#+RESULTS:
+#+begin_example
+KRKRA LLEXX FOLGE NDESI STSOF ORTBE KANNT ZUGEB ENXXI CHHAB EFOLG ELNBE BEFEH LERHA LTENX XJANS TERLE DESBI SHERI GXNRE ICHSM ARSCH ALLSJ GOERI NGJSE TZTDE RFUEH RERSI EYHVR RGRZS SADMI RALYA LSSEI NENNA CHFOL GEREI NXSCH RIFTL SCHEV OLLMA CHTUN TERWE GSXAB SOFOR TSOLL ENSIE SAEMT LICHE MASSN AHMEN VERFU EGENY DIESI CHAUS DERGE GENWA ERTIG ENLAG EERGE BENXG EZXRE ICHSL EITEI KKTUL PEKKJ BORMA NNJXX OBXDX MMMDU RNHFK STXKO MXADM XUUUB OOIEX KP
+#+end_example
+This message contains some spelling mistakes, likely due to errors during the typing of the message or the transmission using Morse code.
+
+Here is the decrypted message, properly formatted:
+#+begin_example
+KRKR ALLE XX
+FOLGENDES IST SOFORT BEKANNTZUGEBEN XX
+ICH HABE FOLGELNBE BEFEHL ERHALTEN XX
+J ANSTERLE DES BISHERIGXN REICHSMARSCHALLS J GOERING J SETZT DER
+FUEHRER SIE Y HVRR GRZSSADMIRAL Y
+ALS SEINEN NACHFOLGER EIN X SCHRIFTLSCHE VOLLMACHT UNTERWEGS X
+ABSOFORT SOLLEN SIE SAEMTLICHE MASSNAHMEN VERFUEGEN Y DIE SICH
+AUS DER GEGENWAERTIGEN LAGE ERGEBEN X
+GEZ X REICHSLEITEI KK TULPE KK J BORMANN J
+OB.D.MMM DURNH FKST.KOM.ADM.UUU BOOIE.KP
+#+end_example
+
+Here it is in proper German, with the spelling mistakes corrected:
+#+begin_example
+KRIEGSNOTMELDUNG [An] Alle:
+
+Folgendes ist sofort bekanntzugeben:
+Ich habe folgende Befehl erhalten:
+'Anstelle des bisherigen Reichsmarschalls 'Göring' setzt der Führer
+Sie, Herr Großadmiral, als seinen Nachfolger ein.
+Schriftlische Vollmacht unterwegs.
+Ab sofort sollen Sie sämtliche Maßnahmen verfügen,
+die sich aus die gegenwärtigen Lage ergeben.
+Gez. Reichsleiter (Tulpe) 'Bormann'
+
+[Von] Oberbefehlshaber der Marine,
+durch Funkstelle der Kommandierender Admiral der Unterseeboote.
+#+end_example
+
+And finally, here is the English translation:
+#+begin_example
+WAR EMERGENCY MESSAGE [To] All:
+
+The following is to be announced immediately:
+I have received the following order: 'In place of former
+Reichsmarschall 'Göring', the Führer has appointed you,
+Herr Grossadmiral, as his successor.
+Written authorization [is] on the way.
+Effective immediately, you are to order all measures
+that are required by the present situation.
+Signed, Reichsleiter (Tulpe) 'Bormann':
+
+[From] Commander-in-Chief of the Navy,
+[sent] by way of the Radio Station
+of the Commanding Admiral of Submarines
+#+end_example
+
+This is largely based on a [[https://www.cryptomuseum.com/crypto/enigma/msg/p1030681.htm][web-page by the crypto museum]], and of course the [[https://enigma.hoerenberg.com/index.php?cat=The%20U534%20messages&page=P1030681][work of Michael Hörenberg]].

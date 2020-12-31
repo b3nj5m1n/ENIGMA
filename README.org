@@ -1,0 +1,149 @@
+#+TITLE: Enigma Simulator
+
+* Introduction
+The Enigma machine was an encryption device used mainly developed by the Germans during the second world war. It was considered un-crackable, and was therefore used by the German military to communicate securely. There were also models available for purchase to businesses.
+
+During World War II, it gave Germany a big advantage over the allies, although the Enigma was eventually cracked by them, more specifically by a large group of code breakers in Bletchley Park who based their work on that of some Polish engineers. Among them was of the course the now infamous [[https://en.wikipedia.org/wiki/Alan_Turing][Alan Turing]], often called the father of theoretical computer science and artificial intelligence.
+
+Based on the work of Marian Rejewski, Turing (And later Gordon Welchman) developed a machine called =Bombe= (Based on the original Polish name /bomba/, or /bomba kryptologiczna/) that exploited a flaw in the design of the Enigma machine and ultimately allowed them to reliably break the encryption.
+
+After watching =The Imitation Game= (A very good movie, despite historical inaccuracies, about Turing and the cracking of Enigma, I /highly/ recommend it.), I became somewhat obsessed with Turing, his work and especially the Enigma.
+
+This project is a simulator for the Enigma machine. It supports historical models of the Enigma, like the M3, M4, Enigma Z and many, many more. It also allows for additional rotors to be used (Not something you could originally do, for obvious reasons) and you have full control over the alphabet. That means you can use this Enigma with modern Unicode and encrypt text with emojis etc.
+
+* Implementation
+This implementation is written in python. I wrote it a while ago, and the codebase is somewhat messy and unorganised. Since the Enigma encryption doesn't hold up to modern standards (Don't ever use it for anything important) speed shouldn't be too much of a concern anyways. This project is purely for fun. You can find more information in the py directorys readme.
+* Explanation of the Enigma
+I'll assume you have a basic understanding of the way the Enigma operates. I'll jump straight to a detailed step-by-step walkthrough.
+** Single-Letter
+*** The Plug-board
+This is the first step. When you press a letter on the Enigmas keyboard, electrical current flows through the plug-board (=Steckbrett= in German). The plug-board serves the purpose of mapping one letter to another, so it essentially switches two letters with each other. This is supposed to add an extra layer of complexity.
+Before using the Enigma, one would have set-up the plug-board by connecting some letters with each other. You can have any number of pairs of 2. For example, you could connect the letters =A= and =U=. Now, when you press the =A= key on the keyboard, he rest of the encryption will proceed as if you had pressed =U=, similarly, pressing =U= means the rest of the process proceeds as if you had pressed =A=. A scenario where =A= maps to =B=, but =B= maps to =C= is impossible.
+After the electrical current has passed through the plug-board, and the letter has potentially been swapped with another one, it continues to the next stage.
+*** The ETW
+This functions similarly to the plug-board, in that it can change a letter to another one, and within one configuration of the machine this mapping will not change, but whereas with the plug-board a letter didn't necessarily have to change, here it does have to change.
+Despite it's name, (=ETW= = =Eintrittswalze= something like entry-rotor in German), this rotor does not actually rotate (Which is why the mapping of characters does not change within a configuration).
+The rotor is still constructed simliarly to the other (rotating) rotors, it has a wiring table, this is basically a mapping of characters, as well as a =Grundstellung= and =Ringstellung=, which can further alter the wiring table. We'll talk about them in in detail later on, since it's a little bit complicated.
+If you're interested in the historical wiring tables, you can find some of the known ones [[https://en.wikipedia.org/wiki/Enigma_rotor_details][here]].
+*** The Walzen
+Now we're getting to the actual encryption. These rotors actually do turn, and are what made the Enigma so difficult to crack.
+Side note: A typical Enigma contains 5 rotors/rolls, but only 3 of those actually turn, the other two are the =ETW=, which we have already discussed, and the =reflector=, so generally such an Enigma would be referred to as an Enigma with 3 rotors.
+The current passes through these rotors (or =Walzen= in German) 2 times, right now we'll talk about the first time. The current starts at the first rotor, goes on to the second, third, and so on. On every press of a key on the keyboard, these rotors are turned (We'll go into detail on when to turn which rotor later), and they're turned before the current for that letter passes through them.
+With all that out of the way, the wiring table of such a rotor can be thought of like this:
+#+begin_example
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+EKMFLGDQVZNTOWYHXUSPAIBRCJ
+#+end_example
+So it's basically a mono-alphabetic substitution cipher.
+Let's take the letter =H= as an example. We'll look for the letter in the top row, then find the corresponding letter in the 2nd row, in the case of =H= this would be =Q=. We'll pass this new letter on to the next rotor and repeat the process.
+
+*** The UKW
+The =UKW= (=Umkehrwalze= in German) is usually referred to as the =reflector=, you can probably guess what it does. It takes the signal we've got after passing through all of the Walzen and it reflects it back.
+Unlike the previous Walzen, this is not a mono-alphabetic substitution cipher, but more similar to the plug-board, where a relationship like this: =A→B B→C= is impossible. Here is a valid wiring table for a UKW:
+#+begin_example
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+YRUHQSLDPXNGOKMIEBFZCWVJAT
+#+end_example
+Notice again how each mapping works in reverse:
+#+begin_example
+A→Y Y→A
+B→R R→B
+L→G G→L
+#+end_example
+Going back to our example, let's assume after passing the =H= through all 3 rotors, we ended up with the letter =Y=. After passing through the reflector, we would have an =A=.
+
+
+*** The Walzen
+After going through the reflector, the signal is now being reflected back through the whole Enigma, meaning it will pass through everything it went through before again.
+There's one every important difference, where before we considered the top row of the mapping table and then proceeded with the corresponding letter in the bottom row, we now look for our current letter in the bottom row and proceed with the corresponding letter in the top row.
+*** The UKW
+Just like with the Walzen, consider the bottom row, then proceed with the corresponding letter from the top row.
+*** The Plugboard
+Since this is also a mono-alphabetic substitution cipher, there's actually nothing different about this pass-through compared to the first one.
+*** Light Bulbs
+A light bulb will now light up to indicate which letter we've finally ended up with.
+** Entire Strings
+Encrypt each letter on its on. In between, rotate the rotors.
+To do so, rotate the first rotor, if that has reached one of its notch positions, the rotor next to it is also turned.
+Unfortunatly, that's not quite it. There's the so called =double-stepping anomaly= (See this [[https://crypto.stackexchange.com/a/71395/68732][stackexchange answer]]), this makes the middle rotor step twice. Since this is only relevant if you actually plan on implementing it yourself, I'll just explain it in the form of some pseudo-code:
+#+begin_src
+if (The first rotor has rotated to the notch position of that rotor):
+    rotate the second rotor
+if (The second rotor has rotated to the notch position of that rotor):
+    rotate the second rotor
+    rotate the third rotor
+In any case rotate the first rotor
+#+end_src
+Here's a breakdown of how I implemented rotating in my code.
+Keep track of a rotors rotations using a number, whenever you want to pass a letter through it:
+1. Shift the letter up the alphabet by the number of rotations; for example say the letter under consideration is =A=, the current number of rotations is =3=, Add =3= to =0= (A) => =3=, which corresponds to a =D=, so proceed with =D=.
+2. Pass that letter through the wiring table.
+3. Subtract the number of rotations from the current letter for the final result. Let's say =D= corresponds to =J= on our wiring table, subtract the number of rotations, =3=, from =9= (J) to get =6=, which corresponds to a =G=. The =G= is what our original letter corresponds to on our rotated rotor.
+** Grundstellung
+The Grundstellung is indicated by a single letter, and it affects the mapings of the corresponding rotor. We have to rotate our rotor n times, where n is the distance from the Grundstellung, as indicated by a single letter, and the =A=.
+For example, let's say our Grundstellung is =F=. The distance from =F= to =A= is 5, so we have to rotate our rotor 5 times.
+** Ringstellung
+Buckle up, this is slightly complicated.
+On every rotor, there historically was a dot. We'll need to know the position of this dot. Luckily, it's always where the ring setting is. The wiring tables on Wikipedia assume a ring setting of =A=, so the position of the dot would have been where the =A= is.
+Let's take the rotor I as an example. the =A= (The ring setting) is at position 20. Remember this position for later.
+
+Now, let's move up the alphabet from =A= to the ring setting, and shift the letters in our wiring table up by one each time. For example: Let's assume our ring setting is =C=, the distance from =A= to =C= is 2 (=A | +1, B -> 1 | +1 C -> 2=). Now, shifting the letters in the wiring table means an =A= becomes a =B=, a =B= becomes a =C=, and so on. With each shift up the alphabet, also add one to the dot position we remembered (20 in this case), but do it mod the length of your alphabet, so usually 26.
+So in this case, where we have to do 2 shifts, our dot position would become 22, if we had to do 7 shifts, our dot position would be 1.
+Now, finally, rotate the new wiring until the letter representing our ring setting is at the position of the dot.
+If you actually build the Enigma, it makes a lot more sense with the electrical wiring, but this is more from a programmers perspective.
+
+Let's do a full example:
+Here's our original wiring:
+#+begin_example
+EKMFLGDQVZNTOWYHXUSPAIBRCJ
+#+end_example
+Our Ringstellung is =C=.
+
+Step 1: find the position of =A= in the wiring table, in this case it's =20=, remember this.
+
+Step 2: Shift the letter in the wiring table up the alphabet up n times, where n is the distance from =A= to =C= (Our Ringstellung), and add n to our dot position.
+
+#+begin_example
+A → B:
+EKMFLGDQVZNTOWYHXUSPAIBRCJ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+FLNGMHERWAOUPXZIYVTQBJCSDK
+
+dot position + 1 = 21
+#+end_example
+#+begin_example
+B → C:
+EKMFLGDQVZNTOWYHXUSPAIBRCJ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+GMOHNIFSXBPVQYAJZWURCKDTEL
+
+dot position + 1 = 22
+#+end_example
+
+Step 3: Rotate until =C= is at the dot position:
+#+begin_example
+Rotation 1:
+
+GMOHNIFSXBPVQYAJZWURCKDTEL
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+LGMOHNIFSXBPVQYAJZWURCKDTE
+#+end_example
+#+begin_example
+Rotation 2:
+
+LGMOHNIFSXBPVQYAJZWURCKDTE
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+ELGMOHNIFSXBPVQYAJZWURCKDT
+#+end_example
+
+That's it. Simple, right?
+This is our final wiring table:
+#+begin_example
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+ELGMOHNIFSXBPVQYAJZWURCKDT
+#+end_example
+
+[[https://pastebin.com/DVip1ypK][Here]] are a few more examples (You also find the examples in a [[file:enigma_ring_settings_examples_a-z.txt][file]] in this repository).

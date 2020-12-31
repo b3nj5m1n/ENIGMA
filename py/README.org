@@ -1,0 +1,78 @@
+#+TITLE: Python Implementation
+
+* How to use
+Let's encrypt the string =I love to talk about nothing. It's the only thing I know anything about.= (It's a quote by Oscar Wilde).
+
+We'll be using the historical M3 Enigma, which doesn't support punctuation, spaces, or anything other than upper-case letters.
+
+** Preparing the input
+Let's make our string fit those requirements:
+#+name: prepare_input
+#+begin_src python :session example :exports both :results output :wrap example
+# Import regular expressions
+import re
+# Define the string we want to encrypt
+s = "I love to talk about nothing. It's the only thing I know anything about."
+# Remove anything except for word characters and convert to upper-case.
+s = re.sub("\W", "", s).upper()
+# Print what we have so far
+print(s)
+#+end_src
+
+#+RESULTS: prepare_input
+#+begin_example
+I LOVE TO TALK ABOUT NOTHING IT S THE ONLY THING I KNOW ANYTHING ABOUT
+#+end_example
+
+** Preparing the Enigma
+Let's take care of the only import we have to worry about
+#+name: import
+#+begin_src python :session example :exports both :results none
+from enigmas import enigmas
+#+end_src
+Now we can start defining the parameters of our machine.
+*** Walzen
+The Walzen to use are specified using an array. Use the =enigmas.py= file for reference.
+
+Let's say we want to use the rotors I, II, III, the standard ETW and UKW B.
+=enigmas.py= Will tell us that I is represented with a 0, II with a 1, III with a 2, the default ETW is assinged an 8 and UKW B is a 9.
+Let's create the array. Notice how the order of the rotors is reversed, the UKW is the last element in the array and the ETW the second to last.
+#+name: prepare_walzen
+#+begin_src python :session example :exports both :results none
+walzen = [2, 1, 0, 8, 9]
+#+end_src
+*** Ring- & Grundstellung
+These are also defined in an array, this array consists of tuples of chars, the first element is the Grundstellung, the second one is the Ringstellung. Let's leave them all at the default =A= for now.
+The first element in this array corresponds to the first walze we defined, so I., the second one to the second walze (II), ..., The last one corresponds to the UKW.
+#+name: prepare_settings
+#+begin_src python :session example :exports both :results none
+settings = [["A", "A"], ["A", "A"], ["A", "A"], ["A", "A"], ["A", "A"]]
+#+end_src
+*** Steckbrett
+The steckbrett is also defined using an array. Each element in this array should be a string of two chars you want to pair up. Let's map =O= to =F=, and =A= to =L=.
+#+name: prepare_steckbrett
+#+begin_src python :session example :exports both :results none
+steckbrett = [ "OF", "AL" ]
+#+end_src
+*** Engima Model
+We'll also have to specify the Enigma model we're using so the program knows the correct wiring tables for those models. As I said at the beginning, we're using the M3 here.
+#+name: prepare_enigma
+#+begin_src python :session example :exports both :results none
+enigma = enigmas.M3.ENIGMA
+#+end_src
+*** Initializing
+You have to call this function on your Enigma object for everything to work correctly.
+#+name: init_enigma
+#+begin_src python :session example :exports both :results none
+enigma.create_enigma(settings, walzen, steckbrett)
+#+end_src
+** Encrypting a Message
+We can use the =enc_string= function to encrypt a string.
+#+name: encrypt
+#+begin_src python :session example :exports both :results none
+encrypted_string = enigma.enc_string(s)
+#+end_src
+Finally, let's output the encrypted string:
+#+begin_src python :session example :exports both :results output :wrap example
+print(encrypted_string)
+#+end_src
